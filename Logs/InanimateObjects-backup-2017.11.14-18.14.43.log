@@ -1,0 +1,1422 @@
+﻿Log file open, 11/14/17 05:10:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: InanimateObjects
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1835351698) SRandInit(1835351698).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.788075
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3709383
+LogInit: Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.14-11.10.24:037][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.14-11.10.24:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.14-11.10.24:176][  0]LogInit: Computer: OROME
+[2017.11.14-11.10.24:176][  0]LogInit: User: mpcon000
+[2017.11.14-11.10.24:176][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.14-11.10.24:176][  0]LogInit: High frequency timer resolution =3.026470 MHz
+[2017.11.14-11.10.24:196][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.14-11.10.24:225][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.14-11.10.24:225][  0]LogMemory: Process Physical Memory: 271.24 MB used, 271.24 MB peak
+[2017.11.14-11.10.24:225][  0]LogMemory: Process Virtual Memory: 263.48 MB used, 263.48 MB peak
+[2017.11.14-11.10.24:225][  0]LogMemory: Physical Memory: 8357.54 MB used,  7964.87 MB free, 16322.41 MB total
+[2017.11.14-11.10.24:225][  0]LogMemory: Virtual Memory: 622.99 MB used,  7964.87 MB free, 134217728.00 MB total
+[2017.11.14-11.10.25:319][  0]LogInit: Using OS detected language (en-US).
+[2017.11.14-11.10.25:319][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.14-11.10.25:533][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.14-11.10.26:544][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.14-11.10.27:866][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.14-11.10.28:597][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.14-11.10.28:597][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.14-11.10.28:599][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.14-11.10.28:599][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.14-11.10.28:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.14-11.10.28:693][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.14-11.10.28:701][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.14-11.10.28:701][  0]LogWindows: EnumDisplayDevices:
+[2017.11.14-11.10.28:701][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.14-11.10.28:701][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.14-11.10.28:701][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.14-11.10.28:702][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.14-11.10.28:702][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.14-11.10.28:702][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.14-11.10.28:702][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.11.14-11.10.28:702][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.11.14-11.10.28:702][  0]LogRHI: Texture pool is 5683 MB (70% of 8119 MB)
+[2017.11.14-11.10.29:450][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.14-11.10.29:762][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2017.11.14-11.10.29:933][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Intermediate/Shaders/WorkingDirectory/17748/).
+[2017.11.14-11.10.29:933][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mpcon_000/AppData/Local/Temp/UnrealShaderWorkingDir/1E843FF24E3678A3DBD22F8982366146/'.
+[2017.11.14-11.10.29:949][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.14-11.10.34:239][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.14-11.10.34:314][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.14-11.10.34:388][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.14-11.10.34:465][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.14-11.10.34:566][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.14-11.10.34:640][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.14-11.10.34:716][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.14-11.10.34:793][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.14-11.10.34:861][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.14-11.10.34:935][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.14-11.10.35:008][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.14-11.10.35:083][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.14-11.10.35:156][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.14-11.10.35:227][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.14-11.10.35:400][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.14-11.10.35:400][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.14-11.10.35:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.14-11.10.35:555][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.14-11.10.35:718][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.14-11.10.35:756][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.14-11.10.35:827][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.14-11.10.35:900][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.14-11.10.35:982][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.14-11.10.36:076][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.14-11.10.36:076][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.14-11.10.38:024][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.14-11.10.38:630][  0]LogDerivedDataCache: Loaded boot cache 0.59s 78MB C:/Users/mpcon_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.14-11.10.38:630][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mpcon_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.14-11.10.38:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.14-11.10.38:630][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.14-11.10.38:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.14-11.10.38:630][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.14-11.10.38:689][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.14-11.10.38:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mpcon_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.14-11.10.38:771][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.14-11.10.38:804][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.14-11.10.38:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.14-11.10.38:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.14-11.10.46:020][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.14-11.10.48:165][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.14-11.10.48:334][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.14-11.10.48:335][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.14-11.10.48:335][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.14-11.10.48:335][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.14-11.10.48:335][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.14-11.10.48:766][  0]LogNetVersion: InanimateObjects , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1956383383)
+[2017.11.14-11.10.50:380][  0]LogAssetRegistry: FAssetRegistry took 0.0500 seconds to start up
+[2017.11.14-11.10.55:985][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.202625 seconds
+[2017.11.14-11.10.56:024][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.14-11.10.56:024][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.11.14-11.10.56:024][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.14-11.10.56:135][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.14-11.11.25:739][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.14-11.11.25:843][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.14-11.11.28:893][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.14-11.11.30:689][  0]SourceControl: Source control is disabled
+[2017.11.14-11.11.30:697][  0]SourceControl: Source control is disabled
+[2017.11.14-11.11.30:942][  0]SourceControl: Source control is disabled
+[2017.11.14-11.11.31:104][  0]SourceControl: Source control is disabled
+[2017.11.14-11.11.34:055][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.14-11.11.34:798][  0]LogOcInput: OculusInput pre-init called
+[2017.11.14-11.11.36:259][  0]LogEngine: Initializing Engine...
+[2017.11.14-11.11.36:514][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2017.11.14-11.11.37:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.14-11.11.37:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.14-11.11.38:440][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.14-11.11.38:705][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.14-11.11.38:738][  0]LogInit: FAudioDevice initialized.
+[2017.11.14-11.11.38:916][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/mpcon_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.14-11.11.38:930][  0]LogInit: Texture streaming: Enabled
+[2017.11.14-11.11.39:538][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.14-11.11.40:332][  0]LogInit: Transaction tracking system initialized
+[2017.11.14-11.11.41:610][  0]BlueprintLog: New page: Editor Load
+[2017.11.14-11.11.45:305][  0]LocalizationService: Localization service is disabled
+[2017.11.14-11.11.47:965][  0]LogConsoleResponse: Display: 
+[2017.11.14-11.11.50:122][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/' took 0.03s
+[2017.11.14-11.11.50:122][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.14-11.11.50:122][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.14-11.11.50:139][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.14-11.11.54:371][  0]SourceControl: Source control is disabled
+[2017.11.14-11.11.54:418][  0]Cmd: MAP LOAD FILE="Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-11.11.54:420][  0]LightingResults: New page: Lighting Build
+[2017.11.14-11.11.54:679][  0]MapCheck: New page: Map Check
+[2017.11.14-11.11.54:679][  0]LightingResults: New page: Lighting Build
+[2017.11.14-11.11.58:539][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.11.14-11.11.59:272][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-11.11.59:477][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-11.11.59:584][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.143ms to complete.
+[2017.11.14-11.11.59:584][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.197
+[2017.11.14-11.12.02:125][  0]LogCollectionManager: Loaded 0 collections in 0.002774 seconds
+[2017.11.14-11.12.02:338][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/Collections/' took 0.01s
+[2017.11.14-11.12.02:338][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/Developers/mpcon000/Collections/' took 0.01s
+[2017.11.14-11.12.02:338][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/Collections/' took 0.01s
+[2017.11.14-11.12.02:338][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.14-11.12.02:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0302 seconds. Added 2363 classes and 519 folders.
+[2017.11.14-11.12.02:669][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.11.14-11.12.03:536][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.14-11.12.03:740][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.14-11.12.04:829][  0]LogSlate: Took 0.011821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.14-11.12.04:839][  0]LogSlate: Took 0.007699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.14-11.12.04:865][  0]LogSlate: Took 0.005901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.14-11.12.05:229][  0]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
+[2017.11.14-11.12.06:043][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.14-11.12.06:043][  0]LogLoad: (Engine Initialization) Total time: 115.54 seconds
+[2017.11.14-11.12.06:043][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.14-11.12.06:043][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.14-11.12.06:504][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.14-11.12.06:936][  1]LogSlate: Took 0.032105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-11.12.07:423][  3]LogSlate: Took 0.000562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-11.12.08:072][  5]LogAssetRegistry: Asset discovery search completed in 77.7148 seconds
+[2017.11.14-11.12.08:075][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.14-11.12.08:075][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2017.11.14-11.12.25:393][150]LogEditorFactories: Performing atomic reimport of [Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx]
+[2017.11.14-11.12.25:499][150]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-11.12.25:749][150]LogFbx: Loading FBX Scene from Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx
+[2017.11.14-11.12.25:808][150]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-11.12.25:908][150]LogFbx: Warning: Triangulating static mesh polySurface9
+[2017.11.14-11.12.26:108][150]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.14-11.12.26:147][150]LogStaticMesh: Building static mesh TVBOY...
+[2017.11.14-11.12.26:334][150]LogStaticMesh: Built static mesh [0.20s] /Game/FirstPersonBP/Prototyping/PropTests/TVBOY.TVBOY
+[2017.11.14-11.12.26:429][150]LogEditorFactories: -- imported successfully
+[2017.11.14-11.12.32:634][623]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2017.11.14-11.12.34:578][623]LogSlate: Took 0.015190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.14-11.12.35:687][624]LogSlate: Took 0.019195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.14-11.13.55:669][  1]LogEditorFactories: Performing atomic reimport of [Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx]
+[2017.11.14-11.13.55:713][  1]LogFbx: Loading FBX Scene from Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx
+[2017.11.14-11.13.55:729][  1]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-11.13.55:738][  1]LogFbx: Warning: Triangulating static mesh polySurface9
+[2017.11.14-11.13.55:892][  1]LogStaticMesh: Building static mesh TVBOY...
+[2017.11.14-11.13.55:983][  1]LogStaticMesh: Built static mesh [0.09s] /Game/FirstPersonBP/Prototyping/PropTests/TVBOY.TVBOY
+[2017.11.14-11.13.56:052][  1]LogEditorFactories: -- imported successfully
+[2017.11.14-11.14.22:204][994]LogEditorTransaction: Undo Staticmesh editor: Material changed
+[2017.11.14-11.14.35:602][ 55]LogEditorTransaction: Undo Staticmesh editor: Material changed
+[2017.11.14-11.14.37:071][145]LogEditorTransaction: Undo Staticmesh editor: Material changed
+[2017.11.14-11.14.57:297][751]LogSavePackage: Save=87.80ms
+[2017.11.14-11.14.57:297][751]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/TVBOY26EC4BBF4B441E3AD52CE5B664A6C3DA.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/TVBOY.uasset'
+[2017.11.14-11.14.57:326][751]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/TVBOY.uasset
+[2017.11.14-11.15.16:883][135]BlueprintLog: New page: Compile PropCharacterTest_BP
+[2017.11.14-11.15.31:674][151]LogSavePackage: Save=175.65ms
+[2017.11.14-11.15.31:674][151]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/FirstPersonExampleMapDBFCD5C24185BE806A7973983F4B5430.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.11.14-11.15.31:685][151]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.11.14-11.15.31:736][151]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.432
+[2017.11.14-11.15.31:864][151]LogSavePackage: Save=104.46ms
+[2017.11.14-11.15.31:864][151]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/PropCharacterTest_BPE64AA51F49E3615F680D3DB8C69D26BB.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.uasset'
+[2017.11.14-11.15.31:867][151]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.uasset
+[2017.11.14-11.15.31:898][151]Cmd: MAP LOAD FILE="Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/LevelBlockout/Content/Levels/LivingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-11.15.31:926][151]LightingResults: New page: Lighting Build
+[2017.11.14-11.15.31:927][151]LoadErrors: New page: Loading map: LivingRoom.umap
+[2017.11.14-11.15.31:929][151]MapCheck: New page: Map Check
+[2017.11.14-11.15.31:930][151]LightingResults: New page: Lighting Build
+[2017.11.14-11.15.32:285][151]LogAIModule: Creating AISystem for world LivingRoom
+[2017.11.14-11.15.32:300][151]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-11.15.32:392][151]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-11.15.32:494][151]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.774ms to complete.
+[2017.11.14-11.15.32:494][151]LogFileHelpers: Loading map 'LivingRoom' took 0.611
+[2017.11.14-11.15.37:147][615]LogEditorViewport: Clicking on Actor (LMB): PropCharacterTest_BP_C (PropCharacterTest_BP2)
+[2017.11.14-11.15.40:920][935]LogEditorViewport: Clicking on Actor (LMB): PropCharacterTest_BP_C (PropCharacterTest_BP)
+[2017.11.14-11.15.43:964][186]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-11.15.44:179][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.15.44:220][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-11.15.44:314][186]PIE: New page: PIE session: LivingRoom (Nov 13, 2017, 11:15:44 PM)
+[2017.11.14-11.15.44:325][186]LogPlayLevel: Creating play world package: /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom
+[2017.11.14-11.15.44:362][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036881s)
+[2017.11.14-11.15.44:363][186]LogAIModule: Creating AISystem for world LivingRoom
+[2017.11.14-11.15.44:363][186]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.11.14-11.15.44:363][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom to /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom (0.037880s)
+[2017.11.14-11.15.44:707][186]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.14-11.15.44:720][186]LogInit: FAudioDevice initialized.
+[2017.11.14-11.15.44:831][186]LogLoad: Game class is 'GameMode'
+[2017.11.14-11.15.45:128][186]LogWorld: Bringing World /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2017.11.14-05.15.45
+[2017.11.14-11.15.45:576][186]LogWorld: Bringing up level for play took: 0.468904
+[2017.11.14-11.15.45:791][186]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.11.14-11.15.45:791][186]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.15.45:791][186]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.15.45:791][186]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.15.45:798][186]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.15.45:799][186]PIE: Play in editor start time for /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom 1.148
+[2017.11.14-11.15.45:809][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.15.46:110][187]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.15.46:163][187]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.15.46:163][187]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.15.46:163][187]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.15.46:163][187]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.15.48:830][481]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.15.50:459][657]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.15.51:897][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.15.51:939][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.15.53:957][  5]LogRenderer: Reallocating scene render targets to support 1448x740 Format 10 NumSamples 1 (Frame:1229).
+[2017.11.14-11.15.54:058][  6]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:1232).
+[2017.11.14-11.16.00:626][713]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-11.16.00:640][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.16.00:640][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-11.16.00:641][713]PIE: New page: PIE session: LivingRoom (Nov 13, 2017, 11:16:00 PM)
+[2017.11.14-11.16.00:641][713]LogPlayLevel: Creating play world package: /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom
+[2017.11.14-11.16.00:648][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007798s)
+[2017.11.14-11.16.00:649][713]LogAIModule: Creating AISystem for world LivingRoom
+[2017.11.14-11.16.00:649][713]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.11.14-11.16.00:649][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom to /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom (0.008755s)
+[2017.11.14-11.16.00:673][713]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.14-11.16.00:677][713]LogInit: FAudioDevice initialized.
+[2017.11.14-11.16.00:718][713]LogLoad: Game class is 'GameMode'
+[2017.11.14-11.16.00:722][713]LogWorld: Bringing World /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2017.11.14-05.16.00
+[2017.11.14-11.16.00:723][713]LogWorld: Bringing up level for play took: 0.004889
+[2017.11.14-11.16.00:724][713]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.16.00:724][713]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.16.00:724][713]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.16.00:724][713]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.16.00:724][713]PIE: Play in editor start time for /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom 0.073
+[2017.11.14-11.16.00:725][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.16.00:820][722]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.00:821][722]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.00:821][722]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.00:821][722]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.00:821][722]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.03:696][999]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.03:802][ 11]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.04:602][ 69]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.06:986][219]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.09:463][276]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.09:811][277]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.11:804][283]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.12:606][322]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.12:606][322]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.12:973][348]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.14:876][485]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.16.15:223][521]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.15:290][528]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.16:899][658]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.19:284][843]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.19:726][879]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.19:865][894]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP5
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.16.19:865][894]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.16.19:865][894]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.19:865][894]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.20:037][907]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.22:969][184]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.23:019][189]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=79.74 Y=-28.26 Z=0.00 Location: X=524.83 Y=-1126.97 Z=91.12 Normal: X=-0.94 Y=0.33 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.16.25:088][406]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.25:447][440]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.28:129][691]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.28:259][706]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.28:775][757]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.30:159][882]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.16.31:413][ 12]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.32:491][112]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.35:153][404]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP5
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.16.35:153][404]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.16.35:153][404]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.35:153][404]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.35:230][413]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.35:247][415]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.35:263][417]LogCharacterMovement: PropCharacterTest_BP_184 is stuck and failed to move! Velocity: X=30.91 Y=15.11 Z=0.00 Location: X=-365.09 Y=61.78 Z=-8.88 Normal: X=-0.44 Y=0.90 Z=-0.00 PenetrationDepth:0.000 Actor:Cube7 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.11.14-11.16.35:280][419]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.35:374][430]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.35:560][452]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=225.13 Y=376.49 Z=0.00 Location: X=586.06 Y=-1426.85 Z=91.01 Normal: X=0.11 Y=-0.99 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.16.37:790][681]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.16.38:127][719]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.40:098][935]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.41:865][ 86]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.16.41:933][ 91]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.16.41:972][ 94]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.42:774][161]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.42:787][162]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.16.43:139][190]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.45:005][359]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.16.45:220][378]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.45:220][378]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.16.45:514][404]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.16.45:661][421]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.16.46:088][460]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.16.47:245][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.16.47:290][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.17.43:474][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.11.14-11.17.52:317][763]LogEditorFactories: Performing atomic reimport of [Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx]
+[2017.11.14-11.17.52:370][763]LogFbx: Loading FBX Scene from Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx
+[2017.11.14-11.17.52:386][763]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-11.17.52:396][763]LogFbx: Warning: Triangulating static mesh polySurface9
+[2017.11.14-11.17.52:564][763]LogStaticMesh: Building static mesh TVBOY...
+[2017.11.14-11.17.52:669][763]LogStaticMesh: Built static mesh [0.11s] /Game/FirstPersonBP/Prototyping/PropTests/TVBOY.TVBOY
+[2017.11.14-11.17.52:733][763]LogEditorFactories: -- imported successfully
+[2017.11.14-11.18.04:415][364]LogEditorFactories: Performing atomic reimport of [Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx]
+[2017.11.14-11.18.04:458][364]LogFbx: Loading FBX Scene from Z:/Personal Work/CrazedInanimateObjects/LivingRoom/TVBOY.fbx
+[2017.11.14-11.18.04:474][364]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-11.18.04:484][364]LogFbx: Warning: Triangulating static mesh polySurface9
+[2017.11.14-11.18.04:635][364]LogStaticMesh: Building static mesh TVBOY...
+[2017.11.14-11.18.04:732][364]LogStaticMesh: Built static mesh [0.10s] /Game/FirstPersonBP/Prototyping/PropTests/TVBOY.TVBOY
+[2017.11.14-11.18.04:796][364]LogEditorFactories: -- imported successfully
+[2017.11.14-11.18.13:087][821]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-11.18.13:103][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.18.13:103][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-11.18.13:103][821]PIE: New page: PIE session: LivingRoom (Nov 13, 2017, 11:18:13 PM)
+[2017.11.14-11.18.13:103][821]LogPlayLevel: Creating play world package: /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom
+[2017.11.14-11.18.13:111][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007606s)
+[2017.11.14-11.18.13:112][821]LogAIModule: Creating AISystem for world LivingRoom
+[2017.11.14-11.18.13:112][821]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2017.11.14-11.18.13:112][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom to /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom (0.008819s)
+[2017.11.14-11.18.13:143][821]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.14-11.18.13:148][821]LogInit: FAudioDevice initialized.
+[2017.11.14-11.18.13:183][821]LogLoad: Game class is 'GameMode'
+[2017.11.14-11.18.13:187][821]LogWorld: Bringing World /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2017.11.14-05.18.13
+[2017.11.14-11.18.13:189][821]LogWorld: Bringing up level for play took: 0.005253
+[2017.11.14-11.18.13:189][821]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.18.13:189][821]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.18.13:189][821]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.18.13:190][821]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.18.13:190][821]PIE: Play in editor start time for /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom 0.539
+[2017.11.14-11.18.13:190][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.18.13:284][825]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.13:284][825]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.13:284][825]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.13:284][825]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.13:284][825]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.14:275][905]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.18.16:307][ 79]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.16:348][ 82]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.16:678][109]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.18.16:707][112]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.18.19:260][360]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.19:260][360]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.20:770][500]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.20:770][500]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.20:781][501]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.20:781][501]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.21:926][607]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.21:996][613]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.23:177][737]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-11.18.23:613][754]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.24:428][849]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.25:348][959]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.25:607][990]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.25:925][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.18.25:998][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.18.30:512][443]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-11.18.30:526][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.18.30:526][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-11.18.30:526][443]PIE: New page: PIE session: LivingRoom (Nov 13, 2017, 11:18:30 PM)
+[2017.11.14-11.18.30:526][443]LogPlayLevel: Creating play world package: /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom
+[2017.11.14-11.18.30:535][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008616s)
+[2017.11.14-11.18.30:536][443]LogAIModule: Creating AISystem for world LivingRoom
+[2017.11.14-11.18.30:536][443]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.11.14-11.18.30:536][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom to /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom (0.009612s)
+[2017.11.14-11.18.30:564][443]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.14-11.18.30:569][443]LogInit: FAudioDevice initialized.
+[2017.11.14-11.18.30:606][443]LogLoad: Game class is 'GameMode'
+[2017.11.14-11.18.30:610][443]LogWorld: Bringing World /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2017.11.14-05.18.30
+[2017.11.14-11.18.30:611][443]LogWorld: Bringing up level for play took: 0.004981
+[2017.11.14-11.18.30:612][443]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.18.30:612][443]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.18.30:612][443]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.18.30:612][443]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.18.30:612][443]PIE: Play in editor start time for /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom -0.039
+[2017.11.14-11.18.30:613][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.18.30:712][452]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.30:712][452]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.30:713][452]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.30:713][452]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.30:713][452]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.33:207][741]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.33:727][802]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.34:587][898]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.36:410][107]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.37:394][220]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im asleep
+[2017.11.14-11.18.37:722][259]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.39:161][414]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.40:163][526]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.40:833][599]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.41:609][687]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.41:871][717]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.42:272][763]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.42:379][776]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP2
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.18.42:379][776]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.18.42:379][776]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.42:379][776]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.43:356][881]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.43:366][882]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.43:394][885]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.43:401][886]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.43:541][902]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.44:690][ 31]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.44:699][ 32]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.44:718][ 34]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.44:744][ 37]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.44:753][ 38]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.46:105][194]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.46:621][253]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.46:863][282]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im asleep
+[2017.11.14-11.18.47:267][328]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP3
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.18.47:267][328]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.18.47:267][328]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.47:267][328]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.48:480][467]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.48:819][506]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.49:515][587]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.49:995][640]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.51:109][766]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:123][767]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:131][768]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:142][769]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:164][772]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:173][773]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:181][774]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:190][775]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:198][776]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:206][777]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:215][778]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.51:286][786]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.51:329][791]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.51:329][791]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.51:867][853]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP4
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.18.51:867][853]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.18.51:868][853]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.51:868][853]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.52:171][887]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.52:794][954]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.18.53:143][991]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.53:286][  6]LogCharacterMovement: FirstPersonCharacter_774 is stuck and failed to move! Velocity: X=-84.58 Y=33.71 Z=0.00 Location: X=290.29 Y=-76.63 Z=97.49 Normal: X=-0.20 Y=-0.95 Z=-0.23 PenetrationDepth:2.828 Actor:PropCharacterTest_BP3 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.18.53:808][ 66]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.53:808][ 66]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.18.54:597][160]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.54:639][165]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.18.54:664][168]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=42.35 Y=-28.70 Z=0.00 Location: X=-113.14 Y=695.06 Z=-9.00 Normal: X=0.99 Y=0.17 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP_184 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.18.55:156][226]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.18.56:924][434]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.58:276][593]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.18.58:608][631]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.18.58:781][650]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.18.59:078][685]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=51.31 Y=-33.00 Z=0.00 Location: X=-37.78 Y=646.75 Z=-9.01 Normal: X=-1.00 Y=0.02 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.18.59:848][768]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.00:555][850]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.01:531][961]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.02:944][125]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.03:769][224]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP_184
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.19.03:769][224]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.19.03:769][224]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.03:769][224]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.04:027][255]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.05:233][397]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.05:249][399]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.05:792][463]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.06:767][577]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.07:168][625]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.07:293][640]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.09:336][883]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.10:112][976]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.11:115][ 96]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.12:428][211]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.13:073][274]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.14:062][351]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.15:058][354]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.15:393][355]LogCharacterMovement: PropCharacterTest_BP4 is stuck and failed to move! Velocity: X=-98.27 Y=28.78 Z=0.00 Location: X=29.92 Y=565.67 Z=-8.99 Normal: X=0.96 Y=-0.28 Z=-0.00 PenetrationDepth:0.120 Actor:PropCharacterTest_BP_184 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.19.16:072][357]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.17:406][361]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.18:400][364]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.19:415][367]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.20:820][514]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.21:061][537]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.21:338][557]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.23:400][765]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.23:716][800]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.23:877][819]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.24:063][839]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP_184
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.19.24:063][839]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.19.24:063][839]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.24:063][839]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.24:089][842]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.24:414][877]LogCharacterMovement: PropCharacterTest_BP4 is stuck and failed to move! Velocity: X=123.71 Y=-322.40 Z=0.00 Location: X=-179.53 Y=540.67 Z=-6.45 Normal: X=0.84 Y=0.54 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP5 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.19.26:410][ 69]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.27:110][124]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.27:896][214]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.30:080][472]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.30:197][484]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.30:383][504]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.30:792][548]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.31:647][640]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.31:769][654]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.32:390][724]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.33:757][873]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.34:201][905]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:201][905]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:202][905]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:202][905]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:210][906]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:210][906]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:223][907]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:223][907]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:238][908]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:238][908]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:247][909]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:247][909]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:258][910]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:258][910]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:266][911]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:266][911]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:275][912]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:275][912]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:283][913]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:283][913]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:292][914]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:292][914]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:300][915]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:300][915]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:309][916]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:309][916]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:317][917]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:317][917]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:326][918]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:327][918]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:347][919]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:347][919]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:357][920]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:357][920]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:366][921]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:366][921]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:378][922]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:378][922]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:388][923]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:388][923]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:396][924]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:396][924]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:405][925]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:405][925]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:417][926]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:418][926]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:428][927]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:428][927]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:439][928]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:439][928]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:454][929]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:455][929]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:469][930]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:469][930]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:482][931]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:482][931]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:494][932]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:495][932]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:504][933]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:504][933]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:516][934]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:516][934]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:531][935]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:531][935]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:546][936]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:546][936]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:557][937]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:557][937]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:568][938]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:568][938]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:578][939]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:578][939]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:586][940]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:586][940]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:599][941]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:599][941]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:609][942]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:609][942]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:624][943]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:624][943]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:631][944]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:631][944]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:640][945]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:640][945]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:651][946]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:651][946]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:659][947]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:659][947]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:667][948]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:667][948]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:675][949]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:675][949]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:684][950]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:684][950]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:692][951]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:692][951]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:701][952]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:701][952]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:709][953]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:709][953]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:721][954]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:721][954]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:728][955]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:728][955]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:736][956]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:736][956]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:747][957]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:747][957]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:754][958]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:754][958]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:765][959]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:765][959]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:772][960]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:772][960]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:780][961]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:780][961]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:790][962]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:790][962]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:814][963]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:814][963]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:826][964]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:826][964]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:834][965]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:834][965]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:847][966]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:847][966]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:855][967]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:855][967]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:864][968]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:864][968]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:872][969]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:872][969]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:880][970]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:880][970]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:888][971]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:888][971]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:899][972]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:899][972]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:911][973]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:911][973]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:922][974]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:922][974]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:935][975]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:935][975]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:945][976]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:945][976]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:958][977]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:958][977]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:967][978]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:967][978]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:978][979]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:978][979]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:993][980]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.34:993][980]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:005][981]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:005][981]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:016][982]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:016][982]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:028][983]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:028][983]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:038][984]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:038][984]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:048][985]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:048][985]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:060][986]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:060][986]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:071][987]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:071][987]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:083][988]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:083][988]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.35:098][989]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=3.34 Y=28.04 Z=0.00 Location: X=-370.74 Y=237.79 Z=-53.56 Normal: X=0.00 Y=-0.00 Z=1.00 PenetrationDepth:0.065 Actor:Cube67 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.11.14-11.19.35:840][ 63]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.19.36:326][107]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.37:458][221]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.19.37:790][258]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.38:567][344]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.38:576][345]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.38:576][345]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.38:667][354]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.19.38:684][356]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.38:733][361]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.39:074][389]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.39:457][424]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.19.40:832][570]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP3
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.19.40:832][570]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.19.40:832][570]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.40:832][570]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.41:917][685]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.41:978][692]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.42:057][701]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.43:139][808]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.43:444][839]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.43:819][875]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.43:830][876]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:092][902]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:116][904]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:127][905]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:136][906]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:169][909]LogCharacterMovement: FirstPersonCharacter_774 is stuck and failed to move! Velocity: X=157.78 Y=37.42 Z=0.00 Location: X=-435.93 Y=135.76 Z=-3.92 Normal: X=-0.76 Y=0.59 Z=-0.26 PenetrationDepth:2.065 Actor:PropCharacterTest_BP_184 Component:Prop BoneName:None (2 other events since notify)
+[2017.11.14-11.19.44:230][913]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.44:249][915]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:293][919]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.19.44:665][954]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=-0.50 Y=-23.48 Z=0.00 Location: X=-317.96 Y=234.26 Z=-8.52 Normal: X=-0.00 Y=0.03 Z=-1.00 PenetrationDepth:1.558 Actor:PropCharacterTest_BP_184 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.19.45:193][  5]LogCharacterMovement: PropCharacterTest_BP4 is stuck and failed to move! Velocity: X=-93.33 Y=-120.45 Z=0.00 Location: X=-250.82 Y=364.49 Z=-9.90 Normal: X=0.56 Y=-0.43 Z=-0.71 PenetrationDepth:0.000 Actor:PropCharacterTest_BP_184 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.19.45:743][ 69]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.46:911][196]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP_184
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.19.46:911][196]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.19.46:911][196]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.46:911][196]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.19.47:084][216]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.47:126][220]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=-1.62 Y=-82.83 Z=0.00 Location: X=-318.96 Y=233.32 Z=-6.50 Normal: X=0.72 Y=0.69 Z=-0.01 PenetrationDepth:2.066 Actor:FirstPersonCharacter_774 Component:CollisionCylinder BoneName:None (1 other events since notify)
+[2017.11.14-11.19.47:215][229]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.19.47:523][263]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.19.47:581][269]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-65.29 Y=99.71 Z=0.00 Location: X=-179.01 Y=169.22 Z=-6.35 Normal: X=0.69 Y=-0.72 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP5 Component:Prop BoneName:None (4 other events since notify)
+[2017.11.14-11.19.47:701][283]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:060][324]LogCharacterMovement: PropCharacterTest_BP4 is stuck and failed to move! Velocity: X=-7.02 Y=-42.31 Z=0.00 Location: X=-252.23 Y=358.01 Z=-6.37 Normal: X=0.10 Y=-0.99 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP_184 Component:Prop BoneName:None (1 other events since notify)
+[2017.11.14-11.19.48:263][346]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:452][365]LogCharacterMovement: PropCharacterTest_BP_184 is stuck and failed to move! Velocity: X=-38.62 Y=-421.22 Z=0.00 Location: X=-282.46 Y=495.10 Z=-6.35 Normal: X=-0.10 Y=0.99 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.19.48:548][376]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:558][377]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:565][378]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:573][379]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:583][380]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:592][381]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:601][382]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:613][383]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.48:624][384]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.48:804][401]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.49:044][427]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.49:225][444]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP5
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.19.49:226][444]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.19.49:226][444]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.49:226][444]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.19.51:177][662]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.52:633][833]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.19.52:811][854]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=-32.66 Y=-12.86 Z=0.00 Location: X=-162.38 Y=71.70 Z=-8.85 Normal: X=-0.00 Y=1.00 Z=-0.00 PenetrationDepth:0.000 Actor:Cube_6 Component:StaticMeshComponent0 BoneName:None (2 other events since notify)
+[2017.11.14-11.19.52:811][854]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.53:062][884]LogCharacterMovement: PropCharacterTest_BP_184 is stuck and failed to move! Velocity: X=-2.88 Y=-34.01 Z=0.00 Location: X=-289.61 Y=451.40 Z=-6.35 Normal: X=-0.11 Y=0.99 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.19.53:415][921]LogCharacterMovement: PropCharacterTest_BP4 is stuck and failed to move! Velocity: X=-29.70 Y=-191.23 Z=0.00 Location: X=-264.81 Y=305.75 Z=-6.35 Normal: X=-0.59 Y=0.81 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP3 Component:Prop BoneName:None (25 other events since notify)
+[2017.11.14-11.19.54:030][987]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im asleep
+[2017.11.14-11.19.54:505][ 39]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.19.55:735][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.19.55:777][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.20.15:292][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-11.20.15:306][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.20.15:307][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-11.20.15:307][ 51]PIE: New page: PIE session: LivingRoom (Nov 13, 2017, 11:20:15 PM)
+[2017.11.14-11.20.15:307][ 51]LogPlayLevel: Creating play world package: /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom
+[2017.11.14-11.20.15:315][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008247s)
+[2017.11.14-11.20.15:316][ 51]LogAIModule: Creating AISystem for world LivingRoom
+[2017.11.14-11.20.15:316][ 51]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.11.14-11.20.15:316][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom to /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom (0.009245s)
+[2017.11.14-11.20.15:338][ 51]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.14-11.20.15:343][ 51]LogInit: FAudioDevice initialized.
+[2017.11.14-11.20.15:380][ 51]LogLoad: Game class is 'GameMode'
+[2017.11.14-11.20.15:384][ 51]LogWorld: Bringing World /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom up for play (max tick rate 0) at 2017.11.14-05.20.15
+[2017.11.14-11.20.15:385][ 51]LogWorld: Bringing up level for play took: 0.004740
+[2017.11.14-11.20.15:385][ 51]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.20.15:386][ 51]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-11.20.15:386][ 51]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.20.15:386][ 51]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-11.20.15:386][ 51]PIE: Play in editor start time for /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom 0.735
+[2017.11.14-11.20.15:386][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.20.15:490][ 61]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.15:490][ 61]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.15:490][ 61]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.15:491][ 61]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.15:491][ 61]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.17:908][346]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.17:967][353]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.19:391][524]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.19:821][535]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.22:148][542]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.22:481][543]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.24:497][549]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.26:514][555]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.20.26:770][581]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.27:971][695]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.30:291][958]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.31:085][ 51]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.31:161][ 60]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP_184
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.20.31:161][ 60]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.20.31:161][ 60]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.31:161][ 60]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.31:264][ 72]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.33:017][267]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.34:010][373]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.34:110][385]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.34:752][441]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.36:061][545]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.36:185][559]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.36:887][643]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.37:103][669]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.37:120][671]LogCharacterMovement: PropCharacterTest_BP_184 is stuck and failed to move! Velocity: X=24.99 Y=-23.24 Z=0.00 Location: X=107.12 Y=638.29 Z=1.14 Normal: X=-0.51 Y=-0.51 Z=0.70 PenetrationDepth:0.000 Actor:Cube10 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.11.14-11.20.38:180][790]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=33.50 Y=-4.61 Z=0.00 Location: X=408.90 Y=-669.52 Z=90.94 Normal: X=0.79 Y=0.62 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP2 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.20.39:534][926]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.20.40:752][ 69]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.41:076][108]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.42:350][253]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.43:117][343]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.43:434][381]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.43:915][436]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.20.44:413][496]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.44:522][509]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP_184
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.20.44:522][509]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.20.44:522][509]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.44:522][509]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.46:691][732]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.47:437][775]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.49:731][782]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.51:750][788]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.51:751][788]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.20.52:574][790]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.55:262][ 29]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.20.55:407][ 41]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.20.55:773][ 66]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.20.58:587][363]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.20.58:596][364]LogCharacterMovement: PropCharacterTest_BP5 is stuck and failed to move! Velocity: X=-3.27 Y=16.76 Z=0.00 Location: X=323.68 Y=-954.74 Z=91.03 Normal: X=0.83 Y=-0.56 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP2 Component:Prop BoneName:None (1 other events since notify)
+[2017.11.14-11.20.58:943][399]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.21.02:936][784]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.21.03:152][810]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.21.03:618][858]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im asleep
+[2017.11.14-11.21.04:037][903]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.05:117][ 25]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.21.05:891][112]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.21.05:908][113]LogCharacterMovement: PropCharacterTest_BP2 is stuck and failed to move! Velocity: X=22.59 Y=17.11 Z=0.00 Location: X=180.45 Y=-868.29 Z=91.02 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:7.326 Actor:Cube29 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.11.14-11.21.06:149][133]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.21.06:512][176]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.07:923][344]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.07:923][344]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.11:457][375]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.21.13:390][541]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.21.14:897][705]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.15:322][755]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.21.18:066][965]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.19:734][970]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.20:402][972]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.21.22:083][977]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.23:006][ 20]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.21.23:724][103]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.21.23:817][114]LogCharacterMovement: PropCharacterTest_BP4 is stuck and failed to move! Velocity: X=0.00 Y=139.54 Z=0.00 Location: X=267.77 Y=-1210.63 Z=91.19 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP5 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.21.25:533][273]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im asleep
+[2017.11.14-11.21.26:582][368]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.26:582][368]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.26:582][368]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-29.36 Y=47.06 Z=0.00 Location: X=558.71 Y=-1172.58 Z=201.53 Normal: X=-0.71 Y=0.00 Z=-0.71 PenetrationDepth:13.263 Actor:Cube78 Component:StaticMeshComponent0 BoneName:None (1 other events since notify)
+[2017.11.14-11.21.27:069][406]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.27:069][406]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.28:859][590]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.29:029][606]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.21.29:039][607]LogCharacterMovement: PropCharacterTest_BP2 is stuck and failed to move! Velocity: X=-13.83 Y=-9.99 Z=0.00 Location: X=537.77 Y=-530.12 Z=91.07 Normal: X=0.16 Y=0.99 Z=-0.00 PenetrationDepth:0.072 Actor:Cube26 Component:StaticMeshComponent0 BoneName:None (4 other events since notify)
+[2017.11.14-11.21.29:233][629]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.21.30:524][777]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	PropCharacterTest_BP_C /Game/LevelBlockout/Content/Levels/UEDPIE_0_LivingRoom.LivingRoom:PersistentLevel.PropCharacterTest_BP3
+	Function /Game/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.PropCharacterTest_BP_C:ExecuteUbergraph_PropCharacterTest_BP:031C
+[2017.11.14-11.21.30:525][777]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_PropCharacterTest_BP' from node: Branch in graph: EventGraph in object: PropCharacterTest_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.11.14-11.21.30:525][777]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.30:525][777]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.31:117][823]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.21.32:584][953]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.32:593][954]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-5.64 Y=23.06 Z=0.00 Location: X=363.68 Y=-871.00 Z=91.18 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (0 other events since notify)
+[2017.11.14-11.21.32:594][954]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.33:599][ 62]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-51.75 Y=212.03 Z=0.00 Location: X=363.69 Y=-877.22 Z=91.75 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (100 other events since notify)
+[2017.11.14-11.21.34:607][170]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-51.75 Y=212.03 Z=0.00 Location: X=363.69 Y=-877.22 Z=91.87 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (107 other events since notify)
+[2017.11.14-11.21.34:707][182]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.35:613][285]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-51.75 Y=212.03 Z=0.00 Location: X=363.69 Y=-877.22 Z=91.99 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (114 other events since notify)
+[2017.11.14-11.21.36:617][392]LogCharacterMovement: PropCharacterTest_BP3 is stuck and failed to move! Velocity: X=-51.75 Y=212.03 Z=0.00 Location: X=363.69 Y=-877.22 Z=92.11 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.000 Actor:PropCharacterTest_BP4 Component:Prop BoneName:None (106 other events since notify)
+[2017.11.14-11.21.36:650][395]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.36:958][430]LogBlueprintUserMessages: [PropCharacterTest_BP2] Im awake
+[2017.11.14-11.21.38:207][560]LogBlueprintUserMessages: [PropCharacterTest_BP5] Im awake
+[2017.11.14-11.21.38:616][609]LogBlueprintUserMessages: [PropCharacterTest_BP_184] Im awake
+[2017.11.14-11.21.39:509][708]LogBlueprintUserMessages: [PropCharacterTest_BP3] Im awake
+[2017.11.14-11.21.39:527][710]LogBlueprintUserMessages: [PropCharacterTest_BP4] Im awake
+[2017.11.14-11.21.41:143][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.21.41:191][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom' with GeneratedClass '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom_C' with ClassGeneratedBy '/Game/LevelBlockout/Content/Levels/LivingRoom.LivingRoom:PersistentLevel.LivingRoom'
+[2017.11.14-11.24.04:691][276]Cmd: SELECT NONE
+[2017.11.14-11.24.05:682][373]Cmd: SELECT NONE
+[2017.11.14-11.24.12:037][892]LogSavePackage: Save=314.75ms
+[2017.11.14-11.24.12:037][892]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/LivingRoomD89649864FF0CA076C904885F42E0C98.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/LevelBlockout/Content/Levels/LivingRoom.umap'
+[2017.11.14-11.24.12:073][892]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/LevelBlockout/Content/Levels/LivingRoom.umap
+[2017.11.14-11.24.12:431][892]LogSavePackage: Save=210.71ms
+[2017.11.14-11.24.12:431][892]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/LivingRoom_BuiltData81B0E9834EFBF7AF39F75F965391A12B.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/LevelBlockout/Content/Levels/LivingRoom_BuiltData.uasset'
+[2017.11.14-11.24.12:441][892]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/LevelBlockout/Content/Levels/LivingRoom_BuiltData.uasset
+[2017.11.14-11.24.16:326][985]LogSavePackage: Save=98.22ms
+[2017.11.14-11.24.16:326][985]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/PropCharacterTest_BP32C5435B494AB5CD30C97980D970A0AA.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.uasset'
+[2017.11.14-11.24.16:329][985]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/PropCharacterTest_BP.uasset
+[2017.11.14-11.24.16:365][985]LogSavePackage: Save=12.45ms
+[2017.11.14-11.24.16:365][985]LogSavePackage: Moving 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/TVBOYE4FAD8BC4E1CF72684A81D81482F6FB1.tmp' to 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/TVBOY.uasset'
+[2017.11.14-11.24.16:368][985]LogSavePackage: Display: Finished SavePackage Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/FirstPersonBP/Prototyping/PropTests/TVBOY.uasset
+[2017.11.14-11.24.16:957][985]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.14-11.24.16:957][985]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.14-11.24.17:360][986]Cmd: QUIT_EDITOR
+[2017.11.14-11.24.18:732][986]LogExit: Preparing to exit.
+[2017.11.14-11.24.19:613][986]LogExit: Editor shut down
+[2017.11.14-11.24.19:617][986]LogExit: Transaction tracking system shut down
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/' was aborted.
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.14-11.24.20:326][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.14-11.24.22:055][986]LogExit: Object subsystem successfully closed.
+[2017.11.14-11.24.22:191][986]LogD3D11RHI: Shutdown
+[2017.11.14-11.24.22:206][986]LogD3D11RHI: CleanupD3DDevice
+[2017.11.14-11.24.22:258][986]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.14-11.24.23:404][986]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2017.11.14-11.24.23:404][986]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (552)
+[2017.11.14-11.24.23:404][986]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2017.11.14-11.24.23:404][986]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.11.14-11.24.23:404][986]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.11.14-11.24.23:404][986]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.11.14-11.24.23:404][986]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.11.14-11.24.23:405][986]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.11.14-11.24.23:405][986]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.11.14-11.24.23:405][986]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.11.14-11.24.23:416][986]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/Collections/' was aborted.
+[2017.11.14-11.24.23:416][986]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Content/Developers/mpcon000/Collections/' was aborted.
+[2017.11.14-11.24.23:416][986]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/NewDev/InanimateObjects/Saved/Collections/' was aborted.
+[2017.11.14-11.24.23:417][986]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.11.14-11.24.23:441][986]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.11.14-11.24.23:442][986]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.11.14-11.24.23:470][986]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.11.14-11.24.23:471][986]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.11.14-11.24.23:486][986]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.11.14-11.24.23:498][986]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.11.14-11.24.23:512][986]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.11.14-11.24.23:571][986]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.11.14-11.24.23:603][986]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.11.14-11.24.23:619][986]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.11.14-11.24.23:619][986]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.11.14-11.24.23:619][986]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.11.14-11.24.23:619][986]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.11.14-11.24.23:619][986]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.11.14-11.24.23:650][986]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.11.14-11.24.23:678][986]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.11.14-11.24.23:695][986]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.11.14-11.24.23:760][986]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.11.14-11.24.23:792][986]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.11.14-11.24.23:809][986]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.11.14-11.24.23:809][986]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.11.14-11.24.23:809][986]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.11.14-11.24.24:800][986]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.11.14-11.24.24:800][986]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.11.14-11.24.24:800][986]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.11.14-11.24.24:800][986]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.11.14-11.24.24:814][986]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.11.14-11.24.24:833][986]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.11.14-11.24.24:833][986]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.11.14-11.24.24:855][986]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.11.14-11.24.24:855][986]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.11.14-11.24.24:868][986]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.11.14-11.24.24:882][986]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.11.14-11.24.24:883][986]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.11.14-11.24.24:883][986]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.11.14-11.24.24:883][986]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.11.14-11.24.24:894][986]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.11.14-11.24.24:894][986]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.11.14-11.24.24:894][986]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.11.14-11.24.24:894][986]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.11.14-11.24.24:894][986]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.11.14-11.24.24:915][986]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.11.14-11.24.24:935][986]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.11.14-11.24.24:965][986]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.11.14-11.24.24:984][986]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.11.14-11.24.24:996][986]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.11.14-11.24.25:038][986]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.11.14-11.24.25:063][986]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.11.14-11.24.25:127][986]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.11.14-11.24.25:167][986]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.11.14-11.24.25:167][986]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.11.14-11.24.25:202][986]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.11.14-11.24.25:202][986]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.11.14-11.24.25:236][986]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.11.14-11.24.25:236][986]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.11.14-11.24.25:236][986]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.11.14-11.24.25:265][986]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.11.14-11.24.25:265][986]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.11.14-11.24.25:265][986]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.11.14-11.24.25:285][986]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.11.14-11.24.25:314][986]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.11.14-11.24.25:330][986]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.11.14-11.24.25:336][986]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.11.14-11.24.25:354][986]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.11.14-11.24.25:354][986]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.11.14-11.24.25:372][986]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.11.14-11.24.25:372][986]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.11.14-11.24.25:428][986]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.11.14-11.24.25:454][986]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.11.14-11.24.25:523][986]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.11.14-11.24.25:523][986]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.11.14-11.24.25:523][986]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.11.14-11.24.25:523][986]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.11.14-11.24.25:532][986]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.11.14-11.24.25:533][986]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.11.14-11.24.25:539][986]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.11.14-11.24.25:539][986]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.11.14-11.24.25:539][986]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.11.14-11.24.25:612][986]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.11.14-11.24.25:655][986]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.11.14-11.24.25:655][986]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.11.14-11.24.25:655][986]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.11.14-11.24.25:655][986]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.11.14-11.24.25:672][986]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.11.14-11.24.25:694][986]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.11.14-11.24.25:712][986]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.11.14-11.24.25:740][986]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.11.14-11.24.25:740][986]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.11.14-11.24.25:740][986]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.11.14-11.24.25:740][986]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.11.14-11.24.25:781][986]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.11.14-11.24.25:792][986]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.11.14-11.24.25:805][986]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.11.14-11.24.25:857][986]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.11.14-11.24.25:857][986]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.11.14-11.24.25:875][986]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.11.14-11.24.25:884][986]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.11.14-11.24.25:992][986]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.11.14-11.24.26:100][986]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.11.14-11.24.26:130][986]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.11.14-11.24.26:130][986]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.11.14-11.24.26:130][986]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.11.14-11.24.26:153][986]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.11.14-11.24.26:153][986]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.11.14-11.24.26:155][986]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.11.14-11.24.26:155][986]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.11.14-11.24.26:155][986]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.11.14-11.24.26:155][986]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.11.14-11.24.26:167][986]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.11.14-11.24.26:167][986]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.11.14-11.24.26:167][986]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.11.14-11.24.26:167][986]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.11.14-11.24.26:167][986]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.11.14-11.24.26:167][986]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.11.14-11.24.26:174][986]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.11.14-11.24.26:174][986]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.11.14-11.24.26:174][986]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.11.14-11.24.26:224][986]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.11.14-11.24.26:241][986]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.11.14-11.24.26:243][986]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.11.14-11.24.26:297][986]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.11.14-11.24.26:313][986]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.11.14-11.24.26:335][986]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.11.14-11.24.26:335][986]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.11.14-11.24.26:351][986]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.11.14-11.24.26:403][986]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.11.14-11.24.26:431][986]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.11.14-11.24.26:431][986]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.11.14-11.24.26:469][986]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.11.14-11.24.26:469][986]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.11.14-11.24.26:472][986]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.11.14-11.24.26:473][986]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.11.14-11.24.26:473][986]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.11.14-11.24.26:473][986]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.11.14-11.24.26:473][986]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.11.14-11.24.26:473][986]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.11.14-11.24.26:473][986]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.11.14-11.24.26:503][986]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.11.14-11.24.26:504][986]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.14-11.24.26:504][986]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.11.14-11.24.26:521][986]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.11.14-11.24.26:534][986]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.11.14-11.24.26:534][986]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.11.14-11.24.26:546][986]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.11.14-11.24.26:546][986]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.11.14-11.24.26:546][986]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.11.14-11.24.26:561][986]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.11.14-11.24.26:602][986]LogDerivedDataCache: Shutdown
+[2017.11.14-11.24.26:602][986]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.11.14-11.24.26:602][986]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.11.14-11.24.26:611][986]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.11.14-11.24.26:625][986]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.11.14-11.24.26:645][986]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.11.14-11.24.26:645][986]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.11.14-11.24.26:665][986]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.11.14-11.24.26:666][986]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.11.14-11.24.26:677][986]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.11.14-11.24.26:677][986]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.11.14-11.24.26:677][986]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.11.14-11.24.26:677][986]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.14-11.24.26:677][986]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.14-11.24.26:697][986]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.14-11.24.26:722][986]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.14-11.24.26:722][986]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.14-11.24.26:733][986]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82264AFC-4500-D561-D9C8-3CB2A2B844CC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.0-3709383%2B%2B%2BUE4%2BRelease-4.18&UserID=06840b1340ce1878e88d6eb9e7ac7043%7Cf5ff995ee019443ebbf2100c8bb629aa%7C713599a5-7b4a-49e6-a678-3091f1d46018&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.14-11.24.26:742][986]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.14-11.24.26:761][986]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.14-11.24.26:778][986]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.14-11.24.26:778][986]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.14-11.24.26:796][986]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.14-11.24.26:817][986]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.14-11.24.26:817][986]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.14-11.24.26:817][986]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.14-11.24.26:833][986]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.14-11.24.26:858][986]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.14-11.24.26:858][986]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.14-11.24.26:875][986]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.14-11.24.26:876][986]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.14-11.24.26:909][986]LogExit: Exiting.
+[2017.11.14-11.24.26:921][986]Log file closed, 11/14/17 05:24:26
