@@ -1,18 +1,20 @@
-﻿Log file open, 11/18/17 00:58:33
+﻿Log file open, 11/18/17 15:41:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: InanimateObjects
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1021994970) SRandInit(1021994970).
+LogInit: Display: RandInit(673068167) SRandInit(673068167).
 LogInit: Read version file with build ID '3709383'
-LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
+LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.365357
+LogStats: Stats thread started at 0.159679
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -164,8 +166,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.18-CL-3709383
-LogInit: Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Build: ++UE4+Release-4.18-CL-3754814
+LogInit: Engine Version: 4.18.1-3754814+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
 LogInit: Net CL: 3709383
 LogDevObjectVersion: Number of dev versions registered: 16
@@ -185,500 +187,1013 @@ LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
-LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
+LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: G:/Program Files (x86)/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.18-06.58.39:691][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.18-06.58.39:691][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.18-06.58.39:836][  0]LogInit: Computer: OROME
-[2017.11.18-06.58.39:836][  0]LogInit: User: mpcon000
-[2017.11.18-06.58.39:836][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.18-06.58.39:836][  0]LogInit: High frequency timer resolution =3.026467 MHz
-[2017.11.18-06.58.39:869][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.18-06.58.39:869][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.18-06.58.39:869][  0]LogMemory: Process Physical Memory: 271.51 MB used, 271.51 MB peak
-[2017.11.18-06.58.39:869][  0]LogMemory: Process Virtual Memory: 269.42 MB used, 269.42 MB peak
-[2017.11.18-06.58.39:869][  0]LogMemory: Physical Memory: 8452.57 MB used,  7869.83 MB free, 16322.41 MB total
-[2017.11.18-06.58.39:869][  0]LogMemory: Virtual Memory: 628.93 MB used,  7869.83 MB free, 134217728.00 MB total
-[2017.11.18-06.58.41:737][  0]LogInit: Using OS detected language (en-US).
-[2017.11.18-06.58.41:737][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.18-06.58.42:059][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.18-06.58.42:983][  0]LogInit: Setting process to per monitor DPI aware
-[2017.11.18-06.58.45:060][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.18-06.58.45:398][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.11.18-06.58.45:398][  0]LogD3D11RHI:       8096/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.18-06.58.45:430][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.18-06.58.45:430][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.18-06.58.45:430][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.18-06.58.45:467][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.18-06.58.45:467][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.18-06.58.45:468][  0]LogWindows: EnumDisplayDevices:
-[2017.11.18-06.58.45:468][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.11.18-06.58.45:468][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.11.18-06.58.45:469][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.18-06.58.45:469][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.18-06.58.45:469][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.18-06.58.45:470][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.11.18-06.58.45:470][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2017.11.18-06.58.45:470][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2017.11.18-06.58.45:470][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2017.11.18-06.58.45:610][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.18-06.58.46:194][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.18-06.58.46:408][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Intermediate/Shaders/WorkingDirectory/20500/).
-[2017.11.18-06.58.46:408][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mpcon_000/AppData/Local/Temp/UnrealShaderWorkingDir/F656683F483319F9AE6D33B5D5290B16/'.
-[2017.11.18-06.58.46:438][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.18-06.58.51:307][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.18-06.58.51:380][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.18-06.58.51:453][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.18-06.58.51:525][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.18-06.58.51:625][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.18-06.58.51:701][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.18-06.58.51:778][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.18-06.58.51:852][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.18-06.58.51:919][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.18-06.58.51:992][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.18-06.58.52:063][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.18-06.58.52:135][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.18-06.58.52:211][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.18-06.58.52:288][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.18-06.58.52:463][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.18-06.58.52:463][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.18-06.58.52:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.18-06.58.52:643][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.18-06.58.52:813][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.18-06.58.52:848][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.18-06.58.52:919][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.18-06.58.52:993][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.18-06.58.53:071][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.18-06.58.53:186][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.18-06.58.53:186][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.18-06.58.55:276][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.18-06.58.55:948][  0]LogDerivedDataCache: Loaded boot cache 0.66s 78MB C:/Users/mpcon_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.18-06.58.55:949][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mpcon_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.11.18-06.58.55:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.18-06.58.55:949][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.18-06.58.55:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.18-06.58.55:949][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.18-06.58.56:062][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.18-06.58.56:078][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mpcon_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.18-06.58.56:180][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.18-06.58.56:271][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.18-06.58.56:330][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.18-06.58.56:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.18-06.59.03:796][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.18-06.59.06:207][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.18-06.59.06:369][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.18-06.59.06:370][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.18-06.59.06:370][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.18-06.59.06:370][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.18-06.59.06:370][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.18-06.59.07:101][  0]LogNetVersion: InanimateObjects , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1956383383)
-[2017.11.18-06.59.09:692][  0]LogAssetRegistry: FAssetRegistry took 0.0657 seconds to start up
-[2017.11.18-06.59.17:684][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.145138 seconds
-[2017.11.18-06.59.17:705][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.11.18-06.59.17:705][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2017.11.18-06.59.17:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.18-06.59.17:828][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.18-06.59.48:352][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.18-06.59.48:512][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.18-06.59.52:099][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.18-06.59.53:812][  0]SourceControl: Source control is disabled
-[2017.11.18-06.59.53:819][  0]SourceControl: Source control is disabled
-[2017.11.18-06.59.54:068][  0]SourceControl: Source control is disabled
-[2017.11.18-06.59.54:247][  0]SourceControl: Source control is disabled
-[2017.11.18-06.59.57:423][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.18-06.59.58:041][  0]LogOcInput: OculusInput pre-init called
-[2017.11.18-06.59.59:698][  0]LogEngine: Initializing Engine...
-[2017.11.18-07.00.00:050][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2017.11.18-07.00.01:107][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.18-07.00.01:108][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.18-07.00.01:941][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.18-07.00.02:124][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2017.11.18-07.00.02:135][  0]LogInit: FAudioDevice initialized.
-[2017.11.18-07.00.02:292][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/mpcon_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.18-07.00.02:306][  0]LogInit: Texture streaming: Enabled
-[2017.11.18-07.00.02:722][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.18-07.00.03:873][  0]LogInit: Transaction tracking system initialized
-[2017.11.18-07.00.08:222][  0]BlueprintLog: New page: Editor Load
-[2017.11.18-07.00.17:947][  0]LocalizationService: Localization service is disabled
-[2017.11.18-07.00.25:542][  0]LogConsoleResponse: Display: 
-[2017.11.18-07.00.32:287][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/' took 0.02s
-[2017.11.18-07.00.32:287][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.18-07.00.32:288][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.18-07.00.32:307][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.18-07.00.46:405][  0]SourceControl: Source control is disabled
-[2017.11.18-07.00.46:672][  0]Cmd: MAP LOAD FILE="Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.18-07.00.46:800][  0]LightingResults: New page: Lighting Build
-[2017.11.18-07.00.47:806][  0]MapCheck: New page: Map Check
-[2017.11.18-07.00.47:806][  0]LightingResults: New page: Lighting Build
-[2017.11.18-07.00.56:073][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.11.18-07.00.57:881][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.18-07.00.58:382][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.18-07.00.58:486][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 103.576ms to complete.
-[2017.11.18-07.00.58:487][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 11.913
-[2017.11.18-07.01.03:926][  0]LogCollectionManager: Loaded 0 collections in 0.103161 seconds
-[2017.11.18-07.01.05:923][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Saved/Collections/' took 0.01s
-[2017.11.18-07.01.05:923][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/Developers/mpcon000/Collections/' took 0.01s
-[2017.11.18-07.01.05:923][  0]LogFileCache: Scanning file cache for directory 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/Collections/' took 0.01s
-[2017.11.18-07.01.05:923][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.18-07.01.06:002][  0]LogContentBrowser: Native class hierarchy populated in 0.0316 seconds. Added 2363 classes and 519 folders.
-[2017.11.18-07.01.06:327][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.11.18-07.01.11:395][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.11.18-07.01.12:458][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.11.18-07.01.16:918][  0]LogSlate: Took 0.130169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.18-07.01.17:066][  0]LogSlate: Took 0.047273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.18-07.01.17:408][  0]LogSlate: Took 0.075769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.18-07.01.19:507][  0]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
-[2017.11.18-07.01.25:253][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.11.18-07.01.25:254][  0]LogLoad: (Engine Initialization) Total time: 183.05 seconds
-[2017.11.18-07.01.25:254][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.18-07.01.25:254][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.18-07.01.26:012][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.18-07.01.26:380][  0]LogSlate: Took 0.040353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.18-07.01.26:846][  2]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.18-07.01.27:142][  3]LogAssetRegistry: Asset discovery search completed in 137.4735 seconds
-[2017.11.18-07.01.27:145][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.18-07.01.27:145][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
-[2017.11.18-07.01.59:297][290]Cmd: MAP LOAD FILE="Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/Prototype_0_1_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.18-07.01.59:429][290]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.18-07.01.59:465][290]LightingResults: New page: Lighting Build
-[2017.11.18-07.01.59:467][290]LoadErrors: New page: Loading map: Prototype_0_1_0.umap
-[2017.11.18-07.01.59:469][290]MapCheck: New page: Map Check
-[2017.11.18-07.01.59:469][290]LightingResults: New page: Lighting Build
-[2017.11.18-07.02.00:054][290]LogAIModule: Creating AISystem for world Prototype_0_1_0
-[2017.11.18-07.02.00:119][290]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.18-07.02.00:794][290]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.18-07.02.00:906][290]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112.264ms to complete.
-[2017.11.18-07.02.00:906][290]LogFileHelpers: Loading map 'Prototype_0_1_0' took 1.652
-[2017.11.18-07.02.03:591][578]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.18-07.02.03:665][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel' has LevelScriptBlueprint '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0' with GeneratedClass '/Game/Prototype_0_1_0.Prototype_0_1_0_C' with ClassGeneratedBy '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0'
-[2017.11.18-07.02.03:681][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.18-07.02.03:695][578]PIE: New page: PIE session: Prototype_0_1_0 (Nov 17, 2017, 7:02:03 PM)
-[2017.11.18-07.02.03:695][578]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prototype_0_1_0
-[2017.11.18-07.02.03:745][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050714s)
-[2017.11.18-07.02.03:746][578]LogAIModule: Creating AISystem for world Prototype_0_1_0
-[2017.11.18-07.02.03:746][578]LogPlayLevel: PIE: World Init took: (0.000947s)
-[2017.11.18-07.02.03:747][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prototype_0_1_0.Prototype_0_1_0 to /Game/UEDPIE_0_Prototype_0_1_0.Prototype_0_1_0 (0.052009s)
-[2017.11.18-07.02.03:805][578]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2017.11.18-07.02.03:812][578]LogInit: FAudioDevice initialized.
-[2017.11.18-07.02.03:923][578]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.11.18-07.02.03:977][578]LogWorld: Bringing World /Game/UEDPIE_0_Prototype_0_1_0.Prototype_0_1_0 up for play (max tick rate 0) at 2017.11.18-01.02.03
-[2017.11.18-07.02.04:003][578]LogWorld: Bringing up level for play took: 0.045662
-[2017.11.18-07.02.04:193][578]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2017.11.18-07.02.04:228][578]PIE: Play in editor start time for /Game/UEDPIE_0_Prototype_0_1_0 -0.279
-[2017.11.18-07.02.04:229][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel' has LevelScriptBlueprint '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0' with GeneratedClass '/Game/Prototype_0_1_0.Prototype_0_1_0_C' with ClassGeneratedBy '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0'
-[2017.11.18-07.02.04:465][579]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
-	TV_BP_C /Game/UEDPIE_0_Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.TV_BP4
-	Function /Game/FirstPersonBP/Prototyping/PropTests/TV_BP.TV_BP_C:ExecuteUbergraph_TV_BP:0679
-[2017.11.18-07.02.04:465][579]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_TV_BP' from node: Branch in graph: EventGraph in object: TV_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
-[2017.11.18-07.02.04:465][579]LogBlueprintUserMessages: [TV_BP4] Im awake
-[2017.11.18-07.02.06:706][840]LogBlueprintUserMessages: [TV_BP4] Im awake
-[2017.11.18-07.02.08:356][ 38]LogBlueprintUserMessages: [TV_BP4] Im awake
-[2017.11.18-07.02.11:267][387]LogBlueprintUserMessages: [TV_BP4] Im awake
-[2017.11.18-07.02.11:944][466]LogBlueprintUserMessages: [None] GWAB
-[2017.11.18-07.02.11:944][466]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] GWAB
-[2017.11.18-07.02.11:945][466]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] GWAB
-[2017.11.18-07.02.24:631][982]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel' has LevelScriptBlueprint '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0' with GeneratedClass '/Game/Prototype_0_1_0.Prototype_0_1_0_C' with ClassGeneratedBy '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0'
-[2017.11.18-07.02.24:694][982]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel' has LevelScriptBlueprint '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0' with GeneratedClass '/Game/Prototype_0_1_0.Prototype_0_1_0_C' with ClassGeneratedBy '/Game/Prototype_0_1_0.Prototype_0_1_0:PersistentLevel.Prototype_0_1_0'
-[2017.11.18-07.02.26:288][ 92]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.18-07.02.26:288][ 92]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.18-07.02.27:100][ 93]Cmd: QUIT_EDITOR
-[2017.11.18-07.02.27:823][ 93]LogExit: Preparing to exit.
-[2017.11.18-07.02.28:798][ 93]LogExit: Editor shut down
-[2017.11.18-07.02.28:805][ 93]LogExit: Transaction tracking system shut down
-[2017.11.18-07.02.29:111][ 93]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.18-07.02.29:111][ 93]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/' was aborted.
-[2017.11.18-07.02.29:111][ 93]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.18-07.02.29:111][ 93]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.11.18-07.02.29:112][ 93]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.11.18-07.02.29:112][ 93]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.18-07.02.29:112][ 93]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.18-07.02.29:636][ 93]LogExit: Object subsystem successfully closed.
-[2017.11.18-07.02.29:667][ 93]LogD3D11RHI: Shutdown
-[2017.11.18-07.02.29:667][ 93]LogD3D11RHI: CleanupD3DDevice
-[2017.11.18-07.02.29:669][ 93]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.18-07.02.29:910][ 93]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2017.11.18-07.02.29:910][ 93]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2017.11.18-07.02.29:910][ 93]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2017.11.18-07.02.29:910][ 93]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2017.11.18-07.02.29:910][ 93]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2017.11.18-07.02.29:912][ 93]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2017.11.18-07.02.29:912][ 93]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2017.11.18-07.02.29:912][ 93]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2017.11.18-07.02.29:913][ 93]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/Collections/' was aborted.
-[2017.11.18-07.02.29:913][ 93]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Content/Developers/mpcon000/Collections/' was aborted.
-[2017.11.18-07.02.29:913][ 93]LogDirectoryWatcher: A directory notification for 'Z:/Personal Work/CrazedInanimateObjects/InanimateObjects/CrazedObjectsHouse/Saved/Collections/' was aborted.
-[2017.11.18-07.02.29:913][ 93]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2017.11.18-07.02.29:913][ 93]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2017.11.18-07.02.29:913][ 93]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2017.11.18-07.02.29:930][ 93]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2017.11.18-07.02.29:931][ 93]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2017.11.18-07.02.29:931][ 93]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2017.11.18-07.02.29:946][ 93]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2017.11.18-07.02.29:947][ 93]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2017.11.18-07.02.29:961][ 93]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2017.11.18-07.02.29:992][ 93]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2017.11.18-07.02.29:993][ 93]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2017.11.18-07.02.29:993][ 93]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2017.11.18-07.02.30:024][ 93]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2017.11.18-07.02.30:024][ 93]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2017.11.18-07.02.30:024][ 93]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2017.11.18-07.02.30:024][ 93]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2017.11.18-07.02.31:022][ 93]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2017.11.18-07.02.31:022][ 93]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2017.11.18-07.02.31:022][ 93]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2017.11.18-07.02.31:022][ 93]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2017.11.18-07.02.31:022][ 93]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2017.11.18-07.02.31:040][ 93]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2017.11.18-07.02.31:040][ 93]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2017.11.18-07.02.31:041][ 93]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2017.11.18-07.02.31:041][ 93]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2017.11.18-07.02.31:050][ 93]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2017.11.18-07.02.31:064][ 93]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2017.11.18-07.02.31:075][ 93]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2017.11.18-07.02.31:076][ 93]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2017.11.18-07.02.31:083][ 93]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2017.11.18-07.02.31:083][ 93]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2017.11.18-07.02.31:125][ 93]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2017.11.18-07.02.31:125][ 93]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2017.11.18-07.02.31:166][ 93]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2017.11.18-07.02.31:199][ 93]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2017.11.18-07.02.31:199][ 93]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2017.11.18-07.02.31:226][ 93]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2017.11.18-07.02.31:242][ 93]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2017.11.18-07.02.31:269][ 93]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2017.11.18-07.02.31:269][ 93]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2017.11.18-07.02.31:269][ 93]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2017.11.18-07.02.31:270][ 93]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2017.11.18-07.02.31:270][ 93]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2017.11.18-07.02.31:270][ 93]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2017.11.18-07.02.31:285][ 93]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2017.11.18-07.02.31:292][ 93]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2017.11.18-07.02.31:293][ 93]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2017.11.18-07.02.31:302][ 93]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2017.11.18-07.02.31:438][ 93]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2017.11.18-07.02.31:447][ 93]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2017.11.18-07.02.31:447][ 93]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2017.11.18-07.02.31:447][ 93]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2017.11.18-07.02.31:447][ 93]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2017.11.18-07.02.31:465][ 93]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2017.11.18-07.02.31:465][ 93]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2017.11.18-07.02.31:465][ 93]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2017.11.18-07.02.31:465][ 93]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2017.11.18-07.02.31:465][ 93]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2017.11.18-07.02.31:478][ 93]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2017.11.18-07.02.31:478][ 93]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2017.11.18-07.02.31:478][ 93]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2017.11.18-07.02.31:478][ 93]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2017.11.18-07.02.31:478][ 93]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2017.11.18-07.02.31:478][ 93]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2017.11.18-07.02.31:493][ 93]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2017.11.18-07.02.31:493][ 93]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2017.11.18-07.02.31:493][ 93]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2017.11.18-07.02.31:493][ 93]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2017.11.18-07.02.31:493][ 93]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2017.11.18-07.02.31:493][ 93]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2017.11.18-07.02.31:514][ 93]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2017.11.18-07.02.31:514][ 93]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2017.11.18-07.02.31:515][ 93]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2017.11.18-07.02.31:516][ 93]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2017.11.18-07.02.31:516][ 93]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2017.11.18-07.02.31:516][ 93]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2017.11.18-07.02.31:516][ 93]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2017.11.18-07.02.31:616][ 93]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2017.11.18-07.02.31:716][ 93]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2017.11.18-07.02.31:716][ 93]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2017.11.18-07.02.31:716][ 93]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2017.11.18-07.02.31:716][ 93]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2017.11.18-07.02.31:716][ 93]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2017.11.18-07.02.31:729][ 93]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2017.11.18-07.02.31:730][ 93]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2017.11.18-07.02.31:730][ 93]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2017.11.18-07.02.31:730][ 93]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2017.11.18-07.02.31:730][ 93]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2017.11.18-07.02.31:740][ 93]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2017.11.18-07.02.31:740][ 93]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2017.11.18-07.02.31:740][ 93]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2017.11.18-07.02.31:740][ 93]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2017.11.18-07.02.31:741][ 93]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2017.11.18-07.02.31:741][ 93]LogModuleManager: Shutting down and abandoning module Media (221)
-[2017.11.18-07.02.31:747][ 93]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.11.18-07.02.31:747][ 93]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.11.18-07.02.31:747][ 93]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2017.11.18-07.02.31:757][ 93]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2017.11.18-07.02.31:757][ 93]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2017.11.18-07.02.31:758][ 93]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2017.11.18-07.02.31:779][ 93]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2017.11.18-07.02.31:779][ 93]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2017.11.18-07.02.31:779][ 93]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2017.11.18-07.02.31:779][ 93]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2017.11.18-07.02.31:782][ 93]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2017.11.18-07.02.31:802][ 93]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2017.11.18-07.02.31:818][ 93]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2017.11.18-07.02.31:818][ 93]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2017.11.18-07.02.31:865][ 93]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2017.11.18-07.02.31:865][ 93]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module Core (172)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.18-07.02.31:869][ 93]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.11.18-07.02.31:888][ 93]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.11.18-07.02.31:888][ 93]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.11.18-07.02.31:888][ 93]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.11.18-07.02.31:903][ 93]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.11.18-07.02.31:903][ 93]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.11.18-07.02.31:903][ 93]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.11.18-07.02.31:903][ 93]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2017.11.18-07.02.31:915][ 93]LogDerivedDataCache: Shutdown
-[2017.11.18-07.02.31:915][ 93]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2017.11.18-07.02.31:915][ 93]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2017.11.18-07.02.31:915][ 93]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2017.11.18-07.02.31:924][ 93]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2017.11.18-07.02.31:932][ 93]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2017.11.18-07.02.31:932][ 93]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2017.11.18-07.02.31:948][ 93]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.18-07.02.31:949][ 93]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.18-07.02.31:963][ 93]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.18-07.02.31:980][ 93]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.18-07.02.31:980][ 93]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.18-07.02.31:980][ 93]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20036751-43F2-D3D6-D365-E0809DB4808F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.0-3709383%2B%2B%2BUE4%2BRelease-4.18&UserID=06840b1340ce1878e88d6eb9e7ac7043%7Cf5ff995ee019443ebbf2100c8bb629aa%7C713599a5-7b4a-49e6-a678-3091f1d46018&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.18-07.02.32:001][ 93]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.18-07.02.32:002][ 93]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.18-07.02.32:002][ 93]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.18-07.02.32:002][ 93]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.18-07.02.32:020][ 93]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.18-07.02.32:021][ 93]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.18-07.02.32:021][ 93]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.18-07.02.32:021][ 93]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.18-07.02.32:032][ 93]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.18-07.02.32:041][ 93]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.18-07.02.32:047][ 93]LogExit: Exiting.
-[2017.11.18-07.02.32:073][ 93]Log file closed, 11/18/17 01:02:32
+[2017.11.18-21.41.06:782][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.18-21.41.06:782][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.18-21.41.06:790][  0]LogInit: Computer: DESKTOP-V859P9R
+[2017.11.18-21.41.06:790][  0]LogInit: User: bmeck
+[2017.11.18-21.41.06:790][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.18-21.41.06:790][  0]LogInit: High frequency timer resolution =3.914068 MHz
+[2017.11.18-21.41.06:790][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.18-21.41.06:790][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.18-21.41.06:790][  0]LogMemory: Process Physical Memory: 272.63 MB used, 272.63 MB peak
+[2017.11.18-21.41.06:790][  0]LogMemory: Process Virtual Memory: 265.83 MB used, 265.83 MB peak
+[2017.11.18-21.41.06:790][  0]LogMemory: Physical Memory: 5108.36 MB used,  11192.27 MB free, 16300.63 MB total
+[2017.11.18-21.41.06:790][  0]LogMemory: Virtual Memory: 659.21 MB used,  11192.27 MB free, 134217728.00 MB total
+[2017.11.18-21.41.06:890][  0]LogInit: Using OS detected language (en-US).
+[2017.11.18-21.41.06:890][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.18-21.41.06:893][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.18-21.41.07:450][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.18-21.41.07:484][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.18-21.41.07:484][  0]LogD3D11RHI:       4058/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.18-21.41.07:487][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.18-21.41.07:487][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.18-21.41.07:487][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.18-21.41.07:491][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.18-21.41.07:491][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.18-21.41.07:491][  0]LogWindows: EnumDisplayDevices:
+[2017.11.18-21.41.07:492][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.18-21.41.07:492][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.11.18-21.41.07:492][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.18-21.41.07:492][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.18-21.41.07:492][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.18-21.41.07:492][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.18-21.41.07:492][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.18-21.41.07:492][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.18-21.41.07:492][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2017.11.18-21.41.07:513][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.18-21.41.07:523][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.18-21.41.07:670][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (D:/Projects/Unreal/CrazedObjectsHouse/Intermediate/Shaders/WorkingDirectory/11240/).
+[2017.11.18-21.41.07:671][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bmeck/AppData/Local/Temp/UnrealShaderWorkingDir/5D624F5944E61E64C078248B6845942A/'.
+[2017.11.18-21.41.07:671][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.18-21.41.08:404][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.18-21.41.08:442][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.18-21.41.08:478][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.18-21.41.08:516][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.18-21.41.08:552][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.18-21.41.08:588][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.18-21.41.08:626][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.18-21.41.08:663][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.18-21.41.08:698][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.18-21.41.08:733][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.18-21.41.08:771][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.18-21.41.08:808][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.18-21.41.08:844][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.18-21.41.08:880][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.18-21.41.08:951][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.18-21.41.08:951][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.18-21.41.08:988][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.18-21.41.09:016][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.18-21.41.09:084][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.18-21.41.09:105][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.18-21.41.09:141][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.18-21.41.09:179][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.18-21.41.09:214][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.18-21.41.09:250][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.18-21.41.09:250][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.18-21.41.09:582][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.18-21.41.09:643][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/bmeck/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.18-21.41.09:643][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bmeck/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.18-21.41.09:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Projects/Unreal/CrazedObjectsHouse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.18-21.41.09:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.18-21.41.09:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Projects/Unreal/CrazedObjectsHouse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.18-21.41.09:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.18-21.41.09:660][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.18-21.41.09:673][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bmeck/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.18-21.41.09:684][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.18-21.41.09:684][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.18-21.41.09:685][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.18-21.41.09:685][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.18-21.41.10:000][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.18-21.41.10:264][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.18-21.41.10:293][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.18-21.41.10:293][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.18-21.41.10:293][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.18-21.41.10:293][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.18-21.41.10:293][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.18-21.41.10:324][  0]LogNetVersion: InanimateObjects , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1956383383)
+[2017.11.18-21.41.10:454][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.11.18-21.41.10:861][  0]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\Assets\Levels\room_hub.umap: Package has invalid export /Game/Assets/Levels/room_hub_BuiltData.room_hub_BuiltData, resave source package!
+[2017.11.18-21.41.10:862][  0]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\Assets\Levels\room_space.umap: Package has invalid export /Game/Assets/Levels/room_space_BuiltData.room_space_BuiltData, resave source package!
+[2017.11.18-21.41.10:862][  0]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_hub.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub_BuiltData, resave source package!
+[2017.11.18-21.41.10:862][  0]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_space.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space_BuiltData, resave source package!
+[2017.11.18-21.41.10:862][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068313 seconds
+[2017.11.18-21.41.10:865][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.18-21.41.10:865][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.11.18-21.41.10:865][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.18-21.41.10:893][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.18-21.41.13:083][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.18-21.41.13:123][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.18-21.41.13:721][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.18-21.41.14:077][  0]SourceControl: Source control is disabled
+[2017.11.18-21.41.14:077][  0]SourceControl: Source control is disabled
+[2017.11.18-21.41.14:128][  0]SourceControl: Source control is disabled
+[2017.11.18-21.41.14:179][  0]SourceControl: Source control is disabled
+[2017.11.18-21.41.14:874][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.18-21.41.15:112][  0]LogOcInput: OculusInput pre-init called
+[2017.11.18-21.41.15:355][  0]LogEngine: Initializing Engine...
+[2017.11.18-21.41.15:357][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.18-21.41.15:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.18-21.41.15:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.18-21.41.15:639][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.18-21.41.15:648][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.18-21.41.15:682][  0]LogInit: FAudioDevice initialized.
+[2017.11.18-21.41.15:752][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/bmeck/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.18-21.41.15:763][  0]LogInit: Texture streaming: Enabled
+[2017.11.18-21.41.15:825][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.18-21.41.15:825][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={EAC46A62-4D29-98E5-89A4-BEB82F096FB1}
+[2017.11.18-21.41.15:932][  0]LogInit: Transaction tracking system initialized
+[2017.11.18-21.41.16:161][  0]BlueprintLog: New page: Editor Load
+[2017.11.18-21.41.16:770][  0]LocalizationService: Localization service is disabled
+[2017.11.18-21.41.17:317][  0]LogConsoleResponse: Display: 
+[2017.11.18-21.41.17:455][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.18-21.41.17:455][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.18-21.41.17:455][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.18-21.41.18:417][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/CrazedObjectsHouse/Content/' took 0.02s
+[2017.11.18-21.41.18:449][  0]SourceControl: Source control is disabled
+[2017.11.18-21.41.18:449][  0]Cmd: MAP LOAD FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.18-21.41.18:450][  0]LogEditorServer: Warning: Can't find file 'D:/Projects/Unreal/CrazedObjectsHouse/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.11.18-21.41.18:450][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.18-21.41.18:507][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.456ms to complete.
+[2017.11.18-21.41.18:507][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.058
+[2017.11.18-21.41.18:633][  0]LogCollectionManager: Loaded 0 collections in 0.001306 seconds
+[2017.11.18-21.41.18:702][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Collections/' took 0.01s
+[2017.11.18-21.41.18:702][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Developers/bmeck/Collections/' took 0.01s
+[2017.11.18-21.41.18:702][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Collections/' took 0.01s
+[2017.11.18-21.41.18:702][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.18-21.41.18:708][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2363 classes and 519 folders.
+[2017.11.18-21.41.18:751][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.11.18-21.41.18:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.11.18-21.41.18:832][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.11.18-21.41.18:865][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2017.11.18-21.41.18:910][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.18-21.41.18:913][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.18-21.41.18:918][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.18-21.41.18:999][  0]LogRenderer: Reallocating scene render targets to support 1288x624 Format 10 NumSamples 1 (Frame:1).
+[2017.11.18-21.41.19:125][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.11.18-21.41.19:125][  0]LogLoad: (Engine Initialization) Total time: 14.81 seconds
+[2017.11.18-21.41.19:125][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.18-21.41.19:125][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.18-21.41.19:134][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.18-21.41.19:150][  0]LogAssetRegistry: Asset discovery search completed in 8.7185 seconds
+[2017.11.18-21.41.19:151][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.18-21.41.19:151][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.11.18-21.41.19:154][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.18-21.41.27:379][964]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.18-21.41.27:599][964]LogAIModule: Creating AISystem for world PersistentLevel
+[2017.11.18-21.41.27:615][964]Cmd: MAP LOAD FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.18-21.41.27:615][964]LightingResults: New page: Lighting Build
+[2017.11.18-21.41.27:645][964]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2017.11.18-21.41.27:646][964]LoadErrors: New page: Loading map: PersistentLevel.umap
+[2017.11.18-21.41.27:646][964]MapCheck: New page: Map Check
+[2017.11.18-21.41.27:646][964]LightingResults: New page: Lighting Build
+[2017.11.18-21.41.27:655][964]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_hub_BuiltData) is flushing async loading
+[2017.11.18-21.41.27:752][964]LogMaterial: Missing cached shader map for material mat_3waytile, compiling. 
+[2017.11.18-21.41.27:838][964]LoadErrors: Error: /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData : Failed import for MapBuildDataRegistry /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub_BuiltData Referenced by export Level /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub:PersistentLevel Referenced by export ObjectRedirector /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData./Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub_BuiltData
+[2017.11.18-21.41.27:850][964]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_space_BuiltData) is flushing async loading
+[2017.11.18-21.41.28:017][964]LogMaterial: Missing cached shader map for material mat_ParticleStar, compiling. 
+[2017.11.18-21.41.28:058][964]LogMaterial: Missing cached shader map for material mat_starfield1, compiling. 
+[2017.11.18-21.41.28:094][964]LogMaterial: Missing cached shader map for material mat_starfield_Background, compiling. 
+[2017.11.18-21.41.28:197][964]LoadErrors: Error: /Game/CrazedObjectsHouse/Levels/room_space_BuiltData : Failed import for MapBuildDataRegistry /Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space_BuiltData Referenced by export Level /Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space:PersistentLevel Referenced by export ObjectRedirector /Game/CrazedObjectsHouse/Levels/room_space_BuiltData./Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space_BuiltData
+[2017.11.18-21.41.28:204][964]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.28:210][964]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.28:292][964]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.18-21.41.28:347][964]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.18-21.41.28:472][964]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.763ms to complete.
+[2017.11.18-21.41.28:474][964]LogFileHelpers: Loading map 'PersistentLevel' took 0.860
+[2017.11.18-21.41.28:478][964]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.18-21.41.40:440][167]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.18-21.41.43:278][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.43:278][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage) is flushing async loading
+[2017.11.18-21.41.43:291][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.43:291][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.43:292][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.43:294][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.43:294][504]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.41.47:991][ 40]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.18-21.41.51:196][381]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.18-21.42.00:174][423]Cmd: DELETE
+[2017.11.18-21.42.00:174][423]Cmd: ACTOR DELETE
+[2017.11.18-21.42.00:322][423]LogEditorActor: Deleted Actor: PointLight
+[2017.11.18-21.42.00:329][423]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.11.18-21.42.01:929][615]Cmd: TRANSACTION UNDO
+[2017.11.18-21.42.01:929][615]LogEditorTransaction: Undo Delete Actors
+[2017.11.18-21.42.01:947][615]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.18-21.42.09:601][471]LogSavePackage: Save=81.96ms
+[2017.11.18-21.42.09:601][471]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/PersistentLevelD55ECCFE43B71A48930B27AAEA4A1071.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap'
+[2017.11.18-21.42.09:607][471]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap
+[2017.11.18-21.42.09:627][471]LogFileHelpers: Saving map 'PersistentLevel' took 0.182
+[2017.11.18-21.42.19:315][595]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.19:315][595]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.20:295][705]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.20:296][705]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.29:174][485]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.29:174][485]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.29:176][485]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.29:177][485]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.29:206][485]MapCheck: New page: Map Check
+[2017.11.18-21.42.29:206][485]LightingResults: New page: Lighting Build
+[2017.11.18-21.42.36:038][ 81]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.36:038][ 81]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.36:038][ 81]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.36:039][ 81]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.36:069][ 81]MapCheck: New page: Map Check
+[2017.11.18-21.42.36:069][ 81]LightingResults: New page: Lighting Build
+[2017.11.18-21.42.47:354][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:355][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_hub) is flushing async loading
+[2017.11.18-21.42.47:386][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:387][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:393][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:393][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:393][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:394][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:394][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_space) is flushing async loading
+[2017.11.18-21.42.47:455][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:455][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:458][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:459][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.47:459][402]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.42.53:200][ 50]LogEditorViewport: Clicking on Actor (LMB): PointLight (CeilingLight)
+[2017.11.18-21.43.04:734][295]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2017.11.18-21.43.07:382][537]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2017.11.18-21.43.07:895][537]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.18-21.43.10:014][657]BlueprintLog: New page: Compile room_space
+[2017.11.18-21.43.10:912][686]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: room_space, Actor: /Game/CrazedObjectsHouse/Levels/room_space.room_space:PersistentLevel.REINST_room_space_C_0
+[2017.11.18-21.43.11:225][686]LogSavePackage: Save=374.29ms
+[2017.11.18-21.43.11:225][686]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space68275E0D465F1554D50311ABFFB04C27.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space.umap'
+[2017.11.18-21.43.11:230][686]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space.umap
+[2017.11.18-21.43.11:230][686]LogFileHelpers: Saving map 'room_space' took 0.473
+[2017.11.18-21.43.11:234][686]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_space.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space_BuiltData, resave source package!
+[2017.11.18-21.43.14:001][831]LogSavePackage: Save=102.05ms
+[2017.11.18-21.43.14:001][831]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/PersistentLevel5E01F8B14FCD8E2BADC649A96DF3E637.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap'
+[2017.11.18-21.43.14:006][831]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap
+[2017.11.18-21.43.14:029][831]LogFileHelpers: Saving map 'PersistentLevel' took 0.224
+[2017.11.18-21.43.14:136][831]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: room_hub, Actor: /Game/CrazedObjectsHouse/Levels/room_hub.room_hub:PersistentLevel.REINST_room_hub_C_0
+[2017.11.18-21.43.14:292][831]LogSavePackage: Save=163.90ms
+[2017.11.18-21.43.14:292][831]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub113A27DE4379FE1B9CF9C4870EA43976.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub.umap'
+[2017.11.18-21.43.14:296][831]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub.umap
+[2017.11.18-21.43.14:297][831]LogFileHelpers: Saving map 'room_hub' took 0.263
+[2017.11.18-21.43.14:392][831]LogSavePackage: Save=10.65ms
+[2017.11.18-21.43.14:392][831]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garageAD60FDD84A7F608BE80277BE31B00B61.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage.umap'
+[2017.11.18-21.43.14:397][831]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage.umap
+[2017.11.18-21.43.14:398][831]LogFileHelpers: Saving map 'room_garage' took 0.099
+[2017.11.18-21.43.14:402][831]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_hub.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub_BuiltData, resave source package!
+[2017.11.18-21.43.21:769][303]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.18-21.43.22:419][303]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.11.18-21.43.22:823][303]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2017.11.18-21.43.25:632][303]LogTexture: Display: Building textures: T_ML_FineRubber (AutoDXT, 2048X2048)
+[2017.11.18-21.43.47:962][933]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.18-21.43.47:963][933]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Levels/room_hub.room_hub_BuiltData'
+[2017.11.18-21.43.47:963][933]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Levels/room_space.room_space_BuiltData'
+[2017.11.18-21.44.02:921][874]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.18-21.45.05:103][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset" SILENT=true
+[2017.11.18-21.45.05:108][309]LogSavePackage: Save=1.82ms
+[2017.11.18-21.45.05:108][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_C0F778B144F0C37C63C10E69DB5D09A71.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset'
+[2017.11.18-21.45.05:112][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset
+[2017.11.18-21.45.05:117][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_hub.umap" SILENT=true
+[2017.11.18-21.45.05:123][309]LogSavePackage: Save=1.37ms
+[2017.11.18-21.45.05:123][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hubDD7AC40E46C7FB4D9773D0B71A43D17E.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_hub.umap'
+[2017.11.18-21.45.05:127][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_hub.umap
+[2017.11.18-21.45.05:131][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset" SILENT=true
+[2017.11.18-21.45.05:135][309]LogSavePackage: Save=1.41ms
+[2017.11.18-21.45.05:135][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hubA90B059B449B3B24F868C9A1D4227159.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset'
+[2017.11.18-21.45.05:138][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset
+[2017.11.18-21.45.05:140][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset" SILENT=true
+[2017.11.18-21.45.05:143][309]LogSavePackage: Save=1.25ms
+[2017.11.18-21.45.05:143][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_C35164A8949460870BC3380A21076450E.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset'
+[2017.11.18-21.45.05:147][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset
+[2017.11.18-21.45.05:152][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_space.umap" SILENT=true
+[2017.11.18-21.45.05:158][309]LogSavePackage: Save=1.56ms
+[2017.11.18-21.45.05:158][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space09F91D3A47440BEC3ED66E85EE9127E2.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_space.umap'
+[2017.11.18-21.45.05:163][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_space.umap
+[2017.11.18-21.45.05:166][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset" SILENT=true
+[2017.11.18-21.45.05:171][309]LogSavePackage: Save=1.27ms
+[2017.11.18-21.45.05:171][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space06155DA445AA52D1D991E89BB964F53E.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset'
+[2017.11.18-21.45.05:174][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset
+[2017.11.18-21.45.05:177][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Mesh/1M_Cube" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Mesh/1M_Cube.uasset" SILENT=true
+[2017.11.18-21.45.05:182][309]LogSavePackage: Save=2.06ms
+[2017.11.18-21.45.05:182][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/1M_CubeDF10A8AA45AB10ECEE61F78996B96862.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Mesh/1M_Cube.uasset'
+[2017.11.18-21.45.05:186][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Mesh/1M_Cube.uasset
+[2017.11.18-21.45.05:189][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_garage_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_garage_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.05:253][309]LogSavePackage: Save=61.48ms
+[2017.11.18-21.45.05:253][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garage_BuiltData964CF5B843D57D4757D28AA116FB84A5.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_garage_BuiltData.uasset'
+[2017.11.18-21.45.05:257][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_garage_BuiltData.uasset
+[2017.11.18-21.45.05:266][309]LogSavePackage: Save=1.37ms
+[2017.11.18-21.45.05:266][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Default__char_FirstPersonCharactDFD046374C21E34ECF4C76876C223BAB.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/Default__char_FirstPersonCharacter_C.uasset'
+[2017.11.18-21.45.05:270][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/Default__char_FirstPersonCharacter_C.uasset
+[2017.11.18-21.45.05:275][309]LogSavePackage: Save=1.58ms
+[2017.11.18-21.45.05:276][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/char_FirstPersonCharacter_C999377A1472A9EE9FA61439732BCB77E.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/char_FirstPersonCharacter_C.uasset'
+[2017.11.18-21.45.05:279][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/char_FirstPersonCharacter_C.uasset
+[2017.11.18-21.45.05:283][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/BP_Assets/char_FirstPersonCharacter" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/char_FirstPersonCharacter.uasset" SILENT=true
+[2017.11.18-21.45.05:286][309]LogSavePackage: Save=1.21ms
+[2017.11.18-21.45.05:286][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/char_FirstPersonCharacter204D46A948DB23CDCF222E874261F343.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/char_FirstPersonCharacter.uasset'
+[2017.11.18-21.45.05:289][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/BP_Assets/char_FirstPersonCharacter.uasset
+[2017.11.18-21.45.05:292][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Blueprints/gm_FirstPersonGameMode_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/gm_FirstPersonGameMode_C.uasset" SILENT=true
+[2017.11.18-21.45.05:295][309]LogSavePackage: Save=1.35ms
+[2017.11.18-21.45.05:295][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/gm_FirstPersonGameMode_CA029FE0748DFE7FFAF0DCFBA3BD0883C.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/gm_FirstPersonGameMode_C.uasset'
+[2017.11.18-21.45.05:299][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/gm_FirstPersonGameMode_C.uasset
+[2017.11.18-21.45.05:302][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Blueprints/gm_FirstPersonGameMode" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/gm_FirstPersonGameMode.uasset" SILENT=true
+[2017.11.18-21.45.05:305][309]LogSavePackage: Save=1.28ms
+[2017.11.18-21.45.05:305][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/gm_FirstPersonGameMode55A4A6DA40A20CDB7C9B1493A0F2F059.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/gm_FirstPersonGameMode.uasset'
+[2017.11.18-21.45.05:309][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/gm_FirstPersonGameMode.uasset
+[2017.11.18-21.45.05:316][309]LogSavePackage: Save=1.81ms
+[2017.11.18-21.45.05:316][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Default__gm_FirstPersonGameMode_8513C22E419F622592DD2C86AEE73AB1.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/Default__gm_FirstPersonGameMode_C.uasset'
+[2017.11.18-21.45.05:321][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Blueprints/Default__gm_FirstPersonGameMode_C.uasset
+[2017.11.18-21.45.05:324][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.05:327][309]LogSavePackage: Save=1.42ms
+[2017.11.18-21.45.05:327][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltData9C9CB8F64780975461626C895E2F4337.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.45.05:331][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.45.05:334][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.05:338][309]LogSavePackage: Save=1.50ms
+[2017.11.18-21.45.05:338][309]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltData46751A9B498256864EFE8E8D8062FB86.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.45.05:341][309]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset
+[2017.11.18-21.45.05:646][309]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\Assets\Levels\room_hub.umap: Package has invalid export /Game/Assets/Levels/room_hub_BuiltData.room_hub_BuiltData, resave source package!
+[2017.11.18-21.45.05:647][309]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\Assets\Levels\room_space.umap: Package has invalid export /Game/Assets/Levels/room_space_BuiltData.room_space_BuiltData, resave source package!
+[2017.11.18-21.45.12:270][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_hub_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub_C.uasset" SILENT=true
+[2017.11.18-21.45.12:274][729]LogSavePackage: Save=1.31ms
+[2017.11.18-21.45.12:274][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_CA805D7F4482313DA8CF98E8C7974D37E.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub_C.uasset'
+[2017.11.18-21.45.12:277][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub_C.uasset
+[2017.11.18-21.45.12:279][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset" SILENT=true
+[2017.11.18-21.45.12:286][729]LogSavePackage: Save=1.17ms
+[2017.11.18-21.45.12:286][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_CA1D773144CA654FA5F748BA77259AB58.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset'
+[2017.11.18-21.45.12:290][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset
+[2017.11.18-21.45.12:293][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub.uasset" SILENT=true
+[2017.11.18-21.45.12:296][729]LogSavePackage: Save=1.20ms
+[2017.11.18-21.45.12:296][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub48D4A02745AB08E367B32E87CB7147EB.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub.uasset'
+[2017.11.18-21.45.12:299][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub.uasset
+[2017.11.18-21.45.12:302][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset" SILENT=true
+[2017.11.18-21.45.12:310][729]LogSavePackage: Save=1.44ms
+[2017.11.18-21.45.12:310][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub022222474E87A8AC45271E89010BD03F.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset'
+[2017.11.18-21.45.12:315][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset
+[2017.11.18-21.45.12:318][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.12:322][729]LogSavePackage: Save=1.88ms
+[2017.11.18-21.45.12:322][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltDataFBD9BE8E45DA23903A60E0A24B38FBE3.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.45.12:326][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.45.12:328][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.12:335][729]LogSavePackage: Save=1.35ms
+[2017.11.18-21.45.12:335][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltDataC97D7F464B04BC3F5E3B2A917B687831.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.45.12:339][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.45.12:342][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_space_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space_C.uasset" SILENT=true
+[2017.11.18-21.45.12:344][729]LogSavePackage: Save=1.22ms
+[2017.11.18-21.45.12:344][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_C360CE7B842C3F656727439AE3E41A477.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space_C.uasset'
+[2017.11.18-21.45.12:348][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space_C.uasset
+[2017.11.18-21.45.12:352][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset" SILENT=true
+[2017.11.18-21.45.12:362][729]LogSavePackage: Save=1.53ms
+[2017.11.18-21.45.12:362][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_C314A34A643D697BF3F283685168B9FB9.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset'
+[2017.11.18-21.45.12:366][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset
+[2017.11.18-21.45.12:369][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space.uasset" SILENT=true
+[2017.11.18-21.45.12:374][729]LogSavePackage: Save=2.23ms
+[2017.11.18-21.45.12:374][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space3369DD21400F59C6C5A9EBB23C2B72ED.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space.uasset'
+[2017.11.18-21.45.12:377][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space.uasset
+[2017.11.18-21.45.12:379][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset" SILENT=true
+[2017.11.18-21.45.12:386][729]LogSavePackage: Save=1.25ms
+[2017.11.18-21.45.12:386][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space6D2D69154077243D9B82EAA2951F1982.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset'
+[2017.11.18-21.45.12:391][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset
+[2017.11.18-21.45.12:393][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.12:396][729]LogSavePackage: Save=1.26ms
+[2017.11.18-21.45.12:396][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltData11E5BF5649453231E7A4E98F3A4E02FD.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.45.12:400][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_space_BuiltData.uasset
+[2017.11.18-21.45.12:403][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.12:412][729]LogSavePackage: Save=1.43ms
+[2017.11.18-21.45.12:412][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltData7449AAF041C430E338059D9353D4EB0B.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.45.12:417][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset
+[2017.11.18-21.45.12:420][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Mesh/1M_Cube" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Mesh/1M_Cube.uasset" SILENT=true
+[2017.11.18-21.45.12:424][729]LogSavePackage: Save=1.30ms
+[2017.11.18-21.45.12:424][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/1M_Cube2543B826445A5CC3D445AA89E934CF76.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Mesh/1M_Cube.uasset'
+[2017.11.18-21.45.12:427][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Mesh/1M_Cube.uasset
+[2017.11.18-21.45.12:430][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Levels/room_garage_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_garage_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.12:491][729]LogSavePackage: Save=60.36ms
+[2017.11.18-21.45.12:491][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garage_BuiltData8B9D401C4D50C2762B54069654BD30CD.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_garage_BuiltData.uasset'
+[2017.11.18-21.45.12:495][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Levels/room_garage_BuiltData.uasset
+[2017.11.18-21.45.12:502][729]LogSavePackage: Save=1.34ms
+[2017.11.18-21.45.12:502][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Default__char_FirstPersonCharactB6793BAD40EA493F99E21F80ED973459.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/Default__char_FirstPersonCharacter_C.uasset'
+[2017.11.18-21.45.12:506][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/Default__char_FirstPersonCharacter_C.uasset
+[2017.11.18-21.45.12:513][729]LogSavePackage: Save=1.59ms
+[2017.11.18-21.45.12:513][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/char_FirstPersonCharacter_C145BD6EA4939DF47E1B564ACCCEB2D04.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/char_FirstPersonCharacter_C.uasset'
+[2017.11.18-21.45.12:516][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/char_FirstPersonCharacter_C.uasset
+[2017.11.18-21.45.12:520][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/BP_Assets/char_FirstPersonCharacter" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/char_FirstPersonCharacter.uasset" SILENT=true
+[2017.11.18-21.45.12:523][729]LogSavePackage: Save=1.25ms
+[2017.11.18-21.45.12:523][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/char_FirstPersonCharacter56CE53BA4936798D50517192B32E4678.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/char_FirstPersonCharacter.uasset'
+[2017.11.18-21.45.12:526][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/BP_Assets/char_FirstPersonCharacter.uasset
+[2017.11.18-21.45.12:529][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Blueprints/gm_FirstPersonGameMode_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/gm_FirstPersonGameMode_C.uasset" SILENT=true
+[2017.11.18-21.45.12:532][729]LogSavePackage: Save=1.23ms
+[2017.11.18-21.45.12:532][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/gm_FirstPersonGameMode_CDE0F6E124B889BCB38090483A8DCDB4E.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/gm_FirstPersonGameMode_C.uasset'
+[2017.11.18-21.45.12:535][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/gm_FirstPersonGameMode_C.uasset
+[2017.11.18-21.45.12:537][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Assets/Blueprints/gm_FirstPersonGameMode" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/gm_FirstPersonGameMode.uasset" SILENT=true
+[2017.11.18-21.45.12:541][729]LogSavePackage: Save=1.43ms
+[2017.11.18-21.45.12:541][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/gm_FirstPersonGameModeF9B658C041DBA43254B61D87AD704F46.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/gm_FirstPersonGameMode.uasset'
+[2017.11.18-21.45.12:544][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/gm_FirstPersonGameMode.uasset
+[2017.11.18-21.45.12:551][729]LogSavePackage: Save=1.36ms
+[2017.11.18-21.45.12:551][729]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Default__gm_FirstPersonGameMode_25C823BD4EFCF77C30B6CD9326AED08A.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/Default__gm_FirstPersonGameMode_C.uasset'
+[2017.11.18-21.45.12:555][729]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Assets/Blueprints/Default__gm_FirstPersonGameMode_C.uasset
+[2017.11.18-21.45.27:890][645]LogSavePackage: Save=498.90ms
+[2017.11.18-21.45.27:890][645]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/FirstPersonExampleMap_BuiltData98DE7BA64E7BE1F7122B149A8EBDA6C7.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.11.18-21.45.27:893][645]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.11.18-21.45.38:523][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_garage_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_garage_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.38:588][311]LogSavePackage: Save=62.65ms
+[2017.11.18-21.45.38:588][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garage_BuiltDataC519A38C45829CE9E9229A99A318B27F.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_garage_BuiltData.uasset'
+[2017.11.18-21.45.38:592][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_garage_BuiltData.uasset
+[2017.11.18-21.45.38:596][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/LivingRoom_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/LivingRoom_C.uasset" SILENT=true
+[2017.11.18-21.45.38:599][311]LogSavePackage: Save=1.33ms
+[2017.11.18-21.45.38:599][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/LivingRoom_C4F80604342690E1D368F878BC4A262B0.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/LivingRoom_C.uasset'
+[2017.11.18-21.45.38:602][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/LivingRoom_C.uasset
+[2017.11.18-21.45.38:606][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/LivingRoom" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/LivingRoom.uasset" SILENT=true
+[2017.11.18-21.45.38:609][311]LogSavePackage: Save=1.19ms
+[2017.11.18-21.45.38:609][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/LivingRoom188704BD4E15E771996EA09FAA09CE65.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/LivingRoom.uasset'
+[2017.11.18-21.45.38:613][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/LivingRoom.uasset
+[2017.11.18-21.45.38:615][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_hub_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub_C.uasset" SILENT=true
+[2017.11.18-21.45.38:617][311]LogSavePackage: Save=1.17ms
+[2017.11.18-21.45.38:617][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_C155ACC60455D622C17A9D5828F070F37.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub_C.uasset'
+[2017.11.18-21.45.38:620][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub_C.uasset
+[2017.11.18-21.45.38:623][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub.uasset" SILENT=true
+[2017.11.18-21.45.38:626][311]LogSavePackage: Save=1.50ms
+[2017.11.18-21.45.38:626][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub8C40ABBC492CC8E55EBF098EF37B1959.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub.uasset'
+[2017.11.18-21.45.38:630][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub.uasset
+[2017.11.18-21.45.38:633][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/Test_SpookyHallway_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/Test_SpookyHallway_C.uasset" SILENT=true
+[2017.11.18-21.45.38:637][311]LogSavePackage: Save=1.90ms
+[2017.11.18-21.45.38:637][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Test_SpookyHallway_C700EB2AA47640E460D3820BEC0603160.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/Test_SpookyHallway_C.uasset'
+[2017.11.18-21.45.38:641][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/Test_SpookyHallway_C.uasset
+[2017.11.18-21.45.38:644][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/Test_SpookyHallway" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/Test_SpookyHallway.uasset" SILENT=true
+[2017.11.18-21.45.38:647][311]LogSavePackage: Save=1.39ms
+[2017.11.18-21.45.38:648][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Test_SpookyHallway01EA6BAB4568DF92E7D331AE92CF9BF6.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/Test_SpookyHallway.uasset'
+[2017.11.18-21.45.38:650][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/Test_SpookyHallway.uasset
+[2017.11.18-21.45.38:653][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.38:674][311]LogSavePackage: Save=19.41ms
+[2017.11.18-21.45.38:674][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltData2040B73B4698CDCD79590E8DC9BDF410.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.45.38:678][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space_BuiltData.uasset
+[2017.11.18-21.45.38:681][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_space_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space_C.uasset" SILENT=true
+[2017.11.18-21.45.38:684][311]LogSavePackage: Save=1.39ms
+[2017.11.18-21.45.38:684][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_CF1882CE3444777FE94D996B6BDB0313F.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space_C.uasset'
+[2017.11.18-21.45.38:688][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space_C.uasset
+[2017.11.18-21.45.38:690][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space.uasset" SILENT=true
+[2017.11.18-21.45.38:694][311]LogSavePackage: Save=1.82ms
+[2017.11.18-21.45.38:694][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_spaceC9C44C6844B4844EF98B26BD83B24BA5.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space.uasset'
+[2017.11.18-21.45.38:698][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_space.uasset
+[2017.11.18-21.45.38:700][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DEP]Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.45.38:808][311]LogSavePackage: Save=106.63ms
+[2017.11.18-21.45.38:808][311]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltDataC88205D243ADA0F5521E8AAB189E1FDD.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.45.38:812][311]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DEP]Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.45.54:538][662]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.211 s
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: === Handled ensure: ===
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: 
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 186]
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: Cannot remove redirection from /Game/[DEP]Levels/LivingRoom_C.LivingRoom_C, it was not registered
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: Stack: 
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000D70A2786 UE4Editor-Core.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000D6E4123A UE4Editor-Core.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000D6E5B906 UE4Editor-Core.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B2016331 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000DE695907 UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000ACD8C188 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000ACD9507E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000AC56F989 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000AC7ED292 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000AC774C92 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000AC777CA9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000AC7E5A85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1BF2B27 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1C1EA04 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A35EFC UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A08095 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1AA28A7 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A8B092 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A7D902 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E263E54B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E2631A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E26403EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E262D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000FAF6B85D USER32.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000FAF6B1EF USER32.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E2641479 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1AADB46 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A3F3A2 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000AC87AAFC UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000ACD8B413 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F92744D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009FA3A7F4 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F990B1E UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F996449 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009FA350B5 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F9295A7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F98EDF9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F8A3FC2 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F8A7389 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x000000009F92C675 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1BF2B27 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1C1EA04 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A35EFC UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A08095 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1AA28A7 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A8B092 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000B1A7D902 UE4Editor-Slate.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E263E54B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E2631A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E26403EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E262D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000FAF6B85D USER32.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000FAF6B1EF USER32.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000E2641516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x0000000080FB50C8 UE4Editor.exe!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x0000000080FC5430 UE4Editor.exe!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x0000000080FC54AA UE4Editor.exe!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x0000000080FD2379 UE4Editor.exe!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x0000000080FD3D57 UE4Editor.exe!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000FA5B1FE4 KERNEL32.DLL!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: [Callstack] 0x00000000FD13EF91 ntdll.dll!UnknownFunction []
+[2017.11.18-21.45.54:538][662]LogOutputDevice: Error: 
+[2017.11.18-21.45.54:547][662]LogStats:                SubmitErrorReport -  0.000 s
+[2017.11.18-21.45.54:858][662]LogStats:                    SendNewReport -  0.312 s
+[2017.11.18-21.45.54:858][662]LogStats:             FDebug::EnsureFailed -  0.532 s
+[2017.11.18-21.46.53:963][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/Levels/room_hub.umap" SILENT=true
+[2017.11.18-21.46.53:969][795]LogSavePackage: Save=1.44ms
+[2017.11.18-21.46.53:969][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub1237D2FE4957674B2003DC8A4FE54C73.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Levels/room_hub.umap'
+[2017.11.18-21.46.53:973][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/Levels/room_hub.umap
+[2017.11.18-21.46.53:977][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_hub.umap" SILENT=true
+[2017.11.18-21.46.53:983][795]LogSavePackage: Save=1.86ms
+[2017.11.18-21.46.53:983][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub7DF0FDF24B296FE9E0C89FB4ABE10D95.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_hub.umap'
+[2017.11.18-21.46.53:987][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_hub.umap
+[2017.11.18-21.46.53:989][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/Levels/room_space.umap" SILENT=true
+[2017.11.18-21.46.53:995][795]LogSavePackage: Save=1.38ms
+[2017.11.18-21.46.53:995][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_spaceDCB2AEE24BC09A68F5C3D6AE1511BA3D.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Levels/room_space.umap'
+[2017.11.18-21.46.54:000][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/Levels/room_space.umap
+[2017.11.18-21.46.54:002][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_space.umap" SILENT=true
+[2017.11.18-21.46.54:008][795]LogSavePackage: Save=1.31ms
+[2017.11.18-21.46.54:008][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space7159CFD64C50A071702F15B36E9A7545.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_space.umap'
+[2017.11.18-21.46.54:012][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/Assets/Levels/room_space.umap
+[2017.11.18-21.46.54:015][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset" SILENT=true
+[2017.11.18-21.46.54:021][795]LogSavePackage: Save=1.40ms
+[2017.11.18-21.46.54:021][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_C3E38AE4649C3475F334C0989D5FE1ED7.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset'
+[2017.11.18-21.46.54:026][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_C.uasset
+[2017.11.18-21.46.54:028][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset" SILENT=true
+[2017.11.18-21.46.54:034][795]LogSavePackage: Save=1.27ms
+[2017.11.18-21.46.54:034][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub5BE16E124DDDB31B41627DB95404AC78.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset'
+[2017.11.18-21.46.54:038][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub.uasset
+[2017.11.18-21.46.54:041][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space_C" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset" SILENT=true
+[2017.11.18-21.46.54:047][795]LogSavePackage: Save=1.20ms
+[2017.11.18-21.46.54:047][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_CE263A4CC4FED9D89D8E8BEBCB2B4F338.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset'
+[2017.11.18-21.46.54:052][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_C.uasset
+[2017.11.18-21.46.54:054][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset" SILENT=true
+[2017.11.18-21.46.54:060][795]LogSavePackage: Save=1.38ms
+[2017.11.18-21.46.54:060][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_spaceF3F26C47464AC71BB8D6B48D30617A73.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset'
+[2017.11.18-21.46.54:065][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space.uasset
+[2017.11.18-21.46.54:068][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.46.54:074][795]LogSavePackage: Save=1.22ms
+[2017.11.18-21.46.54:074][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltData80C1C5594F219F5B844EDAA449951080.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.46.54:077][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.46.54:080][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/[DE{]Assets/Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.46.54:085][795]LogSavePackage: Save=1.29ms
+[2017.11.18-21.46.54:085][795]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltDataD9D9BD554A417FD3C2BB6A943DA507DB.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.46.54:090][795]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/[DE{]Assets/Levels/room_space_BuiltData.uasset
+[2017.11.18-21.47.07:900][926]MapCheck: New page: Map Check
+[2017.11.18-21.47.07:956][926]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.18-21.47.07:956][926]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.18-21.47.08:066][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.11.18-21.47.08:073][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy m_floor_basic, compiling. 
+[2017.11.18-21.47.08:080][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.11.18-21.47.08:086][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_ParticleStar, compiling. 
+[2017.11.18-21.47.08:091][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_occluder, compiling. 
+[2017.11.18-21.47.08:098][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy m_floor_space_fade, compiling. 
+[2017.11.18-21.47.08:105][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy m_starfield_Background_Inst, compiling. 
+[2017.11.18-21.47.08:111][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy m_starfield1_Inst2, compiling. 
+[2017.11.18-21.47.08:919][926]TextureStreamingBuild: Display: Compiling optional shaders took 0.858 seconds.
+[2017.11.18-21.47.08:924][926]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.11.18-21.47.08:934][926]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
+[2017.11.18-21.47.08:993][926]LightingResults: New page: Lighting Build - Nov 18, 2017, 9:47:08 AM
+[2017.11.18-21.47.09:089][926]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.18-21.47.09:197][926]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.18-21.47.09:212][926]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.18-21.47.09:728][926]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.18-21.47.09:728][926]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11240
+[2017.11.18-21.47.16:657][926]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.18-21.47.16:657][926]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.18-21.47.16:657][926]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.18-21.47.16:657][926]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.18-21.47.16:657][926]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.18-21.47.16:779][926]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.18-21.47.16:779][926]MapCheck: New page: PersistentLevel - Nov 18, 2017, 9:47:16 AM
+[2017.11.18-21.47.16:800][926]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2017.11.18-21.47.16:859][926]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 79.947ms to complete.
+[2017.11.18-21.47.16:881][926]LogEditorBuildUtils: Build time 0:08
+[2017.11.18-21.47.23:050][243]Job is a success!
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.031s
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport:      BrickData 105x5x5 = 0.1Mb
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport:      Bricks at Level
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport:          0: 4.8% covering 100.0% of volume
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport:          1: 19.0% covering 6.3% of volume
+[2017.11.18-21.47.23:180][244]LogVolumetricLightmapImport:          2: 76.2% covering 0.4% of volume
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: AOMaterialMask0_1 (BC4, 1024X512)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: AOMaterialMask0_2 (BC4, 1024X512)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: AOMaterialMask0_3 (BC4, 512X256)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2017.11.18-21.47.23:760][244]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2017.11.18-21.47.23:905][244]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X128)
+[2017.11.18-21.47.23:906][244]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
+[2017.11.18-21.47.23:906][244]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
+[2017.11.18-21.47.23:935][244]Lightmass on DESKTOP-V859P9R: 5.91 sec total, 81 ms importing, 16 ms setup, 786 ms photons, 5.00 sec processing, 0 ms extra exporting [75/75 mappings]. Threads: 34.8 sec total, 18.8 sec processing.
+[2017.11.18-21.47.23:959][244]LogStaticLightingSystem: Illumination: 14.9 sec (521 ms encoding lightmaps, 137 ms encoding shadowmaps)
+[2017.11.18-21.47.23:959][244]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.18-21.47.23:959][244]LogStaticLightingSystem: Shadowmap texture memory: 5.7 MB (5.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.11.18-21.47.24:661][244]DumpUnbuiltLightIteractions
+[2017.11.18-21.47.24:661][244]Lights with unbuilt interactions: 0
+[2017.11.18-21.47.24:661][244]
+[2017.11.18-21.47.24:661][244]Primitives with unbuilt interactions: 0
+[2017.11.18-21.47.24:669][245]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.18-21.47.24:669][245]MapCheck: New page: PersistentLevel - Nov 18, 2017, 9:47:24 AM
+[2017.11.18-21.47.24:733][245]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.779ms to complete.
+[2017.11.18-21.47.47:764][811]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: room_space, Actor: /Game/CrazedObjectsHouse/Levels/room_space.room_space:PersistentLevel.REINST_room_space_C_0
+[2017.11.18-21.47.48:116][811]LogSavePackage: Save=410.11ms
+[2017.11.18-21.47.48:116][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space8AF4A62B45B97E4925901FA4691527AE.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space.umap'
+[2017.11.18-21.47.48:122][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space.umap
+[2017.11.18-21.47.48:122][811]LogFileHelpers: Saving map 'room_space' took 0.493
+[2017.11.18-21.47.48:126][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CrazedObjectsHouse/Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.47.48:151][811]LogSavePackage: Save=17.84ms
+[2017.11.18-21.47.48:151][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltData044088644636FE6C8DAD0A9330797175.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.47.48:155][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space_BuiltData.uasset
+[2017.11.18-21.47.48:366][811]LogSavePackage: Save=114.02ms
+[2017.11.18-21.47.48:366][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/PersistentLevel2611341D46627717C34D739A8A8B8888.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap'
+[2017.11.18-21.47.48:371][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap
+[2017.11.18-21.47.48:391][811]LogFileHelpers: Saving map 'PersistentLevel' took 0.234
+[2017.11.18-21.47.48:422][811]LogSavePackage: Save=27.43ms
+[2017.11.18-21.47.48:422][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/PersistentLevel_BuiltDataE06A459D4DC419871574B1A11372AE5C.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel_BuiltData.uasset'
+[2017.11.18-21.47.48:426][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel_BuiltData.uasset
+[2017.11.18-21.47.48:529][811]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: room_hub, Actor: /Game/CrazedObjectsHouse/Levels/room_hub.room_hub:PersistentLevel.REINST_room_hub_C_0
+[2017.11.18-21.47.48:698][811]LogSavePackage: Save=175.84ms
+[2017.11.18-21.47.48:698][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub2EA9C5A244991B8BB5358DA872F1514A.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub.umap'
+[2017.11.18-21.47.48:703][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub.umap
+[2017.11.18-21.47.48:704][811]LogFileHelpers: Saving map 'room_hub' took 0.275
+[2017.11.18-21.47.48:706][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CrazedObjectsHouse/Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.47.48:816][811]LogSavePackage: Save=104.59ms
+[2017.11.18-21.47.48:816][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltDataB3892A3049599E393BD25C8E5C99775F.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.47.48:821][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.47.48:920][811]LogSavePackage: Save=9.77ms
+[2017.11.18-21.47.48:920][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garage4DD6783A4EDF6744F6AC51A45965636D.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage.umap'
+[2017.11.18-21.47.48:925][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage.umap
+[2017.11.18-21.47.48:925][811]LogFileHelpers: Saving map 'room_garage' took 0.102
+[2017.11.18-21.47.48:928][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage_BuiltData.uasset" SILENT=true
+[2017.11.18-21.47.48:991][811]LogSavePackage: Save=54.86ms
+[2017.11.18-21.47.48:991][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garage_BuiltData786717F14BEA044AD2F94B86E9684940.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage_BuiltData.uasset'
+[2017.11.18-21.47.48:995][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage_BuiltData.uasset
+[2017.11.18-21.47.48:998][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CrazedObjectsHouse/Levels/room_hub_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub_BuiltData.uasset" SILENT=true
+[2017.11.18-21.47.49:098][811]LogSavePackage: Save=95.43ms
+[2017.11.18-21.47.49:098][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub_BuiltData650DCFCC473CA3A8FA7872BC86F9CD76.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub_BuiltData.uasset'
+[2017.11.18-21.47.49:101][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub_BuiltData.uasset
+[2017.11.18-21.47.49:103][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage_BuiltData.uasset" SILENT=true
+[2017.11.18-21.47.49:160][811]LogSavePackage: Save=52.01ms
+[2017.11.18-21.47.49:160][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_garage_BuiltData8C5E379C40334CDB5E5A05AC7E0640BE.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage_BuiltData.uasset'
+[2017.11.18-21.47.49:163][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_garage_BuiltData.uasset
+[2017.11.18-21.47.49:165][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CrazedObjectsHouse/Levels/room_space_BuiltData" FILE="D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space_BuiltData.uasset" SILENT=true
+[2017.11.18-21.47.49:187][811]LogSavePackage: Save=16.77ms
+[2017.11.18-21.47.49:187][811]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_space_BuiltData85A287524F55745B3D064AA81865CDD8.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space_BuiltData.uasset'
+[2017.11.18-21.47.49:190][811]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space_BuiltData.uasset
+[2017.11.18-21.47.49:195][811]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_space.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space_BuiltData, resave source package!
+[2017.11.18-21.47.49:197][811]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_hub.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub_BuiltData, resave source package!
+[2017.11.18-21.48.09:254][179]LogEditorViewport: Clicking on Actor (LMB): a_room_SpaceHallwayStaticMesh_C (room_SpaceHallwayStaticMesh)
+[2017.11.18-21.48.24:811][977]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (backwall_o)
+[2017.11.18-21.48.26:831][192]LogEditorViewport: Clicking on Actor (LMB): a_StarSkybox_C (StarSkybox)
+[2017.11.18-21.48.32:250][798]LogEditorViewport: Clicking on Actor (LMB): a_StarSkybox_C (StarSkybox)
+[2017.11.18-21.48.53:724][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube66)
+[2017.11.18-21.49.01:179][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (room_hub_mesh)
+[2017.11.18-21.49.08:343][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (room_kitchen_mesh)
+[2017.11.18-21.49.29:698][495]LogEditorViewport: Clicking on Actor (LMB): a_StarSkybox_C (StarSkybox)
+[2017.11.18-21.50.37:048][420]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.37:050][420]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.37:651][489]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.37:652][489]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.53:361][369]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.53:362][369]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.53:806][422]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.50.53:808][422]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.04:085][655]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.04:089][655]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.04:755][735]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.04:756][735]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.20:811][654]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.20:814][654]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.21:449][729]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.21:456][729]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/CrazedObjectsHouse/Levels/room_garage_BuiltData) is flushing async loading
+[2017.11.18-21.51.29:292][621]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: room_space, Actor: /Game/CrazedObjectsHouse/Levels/room_space.room_space:PersistentLevel.REINST_room_space_C_0
+[2017.11.18-21.51.29:627][621]LogSavePackage: Save=398.37ms
+[2017.11.18-21.51.29:627][621]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_spaceB4CE3D9044E59F097B6BF780B52507C4.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space.umap'
+[2017.11.18-21.51.29:633][621]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_space.umap
+[2017.11.18-21.51.29:635][621]LogFileHelpers: Saving map 'room_space' took 0.483
+[2017.11.18-21.51.29:838][621]LogSavePackage: Save=118.39ms
+[2017.11.18-21.51.29:838][621]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/PersistentLevel85A8A7F9454B1B3D36C2028E32AB1CA9.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap'
+[2017.11.18-21.51.29:842][621]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/PersistentLevel.umap
+[2017.11.18-21.51.29:862][621]LogFileHelpers: Saving map 'PersistentLevel' took 0.225
+[2017.11.18-21.51.29:969][621]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: room_hub, Actor: /Game/CrazedObjectsHouse/Levels/room_hub.room_hub:PersistentLevel.REINST_room_hub_C_0
+[2017.11.18-21.51.30:149][621]LogSavePackage: Save=187.23ms
+[2017.11.18-21.51.30:149][621]LogSavePackage: Moving 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/room_hub0901D0D74B1823FD8E8D2DB7757B0F34.tmp' to 'D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub.umap'
+[2017.11.18-21.51.30:155][621]LogSavePackage: Display: Finished SavePackage D:/Projects/Unreal/CrazedObjectsHouse/Content/CrazedObjectsHouse/Levels/room_hub.umap
+[2017.11.18-21.51.30:157][621]LogFileHelpers: Saving map 'room_hub' took 0.293
+[2017.11.18-21.51.30:162][621]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_space.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_space_BuiltData.room_space_BuiltData, resave source package!
+[2017.11.18-21.51.30:162][621]LogAssetRegistry: Warning: D:\Projects\Unreal\CrazedObjectsHouse\Content\CrazedObjectsHouse\Levels\room_hub.umap: Package has invalid export /Game/CrazedObjectsHouse/Levels/room_hub_BuiltData.room_hub_BuiltData, resave source package!
+[2017.11.18-21.51.41:517][556]Cmd: QUIT_EDITOR
+[2017.11.18-21.51.41:559][556]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.18-21.51.41:567][556]LogExit: Preparing to exit.
+[2017.11.18-21.51.42:266][556]LogExit: Editor shut down
+[2017.11.18-21.51.42:268][556]LogExit: Transaction tracking system shut down
+[2017.11.18-21.51.42:416][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.18-21.51.42:416][556]LogDirectoryWatcher: A directory notification for 'D:/Projects/Unreal/CrazedObjectsHouse/Content/' was aborted.
+[2017.11.18-21.51.42:416][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.18-21.51.42:416][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.11.18-21.51.42:417][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.11.18-21.51.42:417][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.18-21.51.42:417][556]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.18-21.51.42:486][556]LogExit: Object subsystem successfully closed.
+[2017.11.18-21.51.42:513][556]LogD3D11RHI: Shutdown
+[2017.11.18-21.51.42:513][556]LogD3D11RHI: CleanupD3DDevice
+[2017.11.18-21.51.42:514][556]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (552)
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module StatsViewer (550)
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module WorldBrowser (546)
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module SceneOutliner (544)
+[2017.11.18-21.51.42:522][556]LogModuleManager: Shutting down and abandoning module AddContentDialog (542)
+[2017.11.18-21.51.42:522][556]LogDirectoryWatcher: A directory notification for 'G:/Program Files (x86)/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.11.18-21.51.42:523][556]LogModuleManager: Shutting down and abandoning module WidgetCarousel (541)
+[2017.11.18-21.51.42:523][556]LogModuleManager: Shutting down and abandoning module EditorWidgets (538)
+[2017.11.18-21.51.42:523][556]LogModuleManager: Shutting down and abandoning module CollectionManager (536)
+[2017.11.18-21.51.42:523][556]LogDirectoryWatcher: A directory notification for 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Collections/' was aborted.
+[2017.11.18-21.51.42:523][556]LogDirectoryWatcher: A directory notification for 'D:/Projects/Unreal/CrazedObjectsHouse/Content/Developers/bmeck/Collections/' was aborted.
+[2017.11.18-21.51.42:524][556]LogDirectoryWatcher: A directory notification for 'D:/Projects/Unreal/CrazedObjectsHouse/Saved/Collections/' was aborted.
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.11.18-21.51.42:524][556]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.11.18-21.51.42:525][556]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.11.18-21.51.42:525][556]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.11.18-21.51.42:525][556]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.11.18-21.51.42:525][556]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.11.18-21.51.43:171][556]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.11.18-21.51.43:226][556]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.11.18-21.51.43:232][556]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.11.18-21.51.43:328][556]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.11.18-21.51.43:329][556]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.11.18-21.51.43:330][556]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.11.18-21.51.43:431][556]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.11.18-21.51.43:532][556]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.11.18-21.51.43:532][556]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.11.18-21.51.43:532][556]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.11.18-21.51.43:532][556]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.11.18-21.51.43:532][556]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.11.18-21.51.43:532][556]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.11.18-21.51.43:533][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.11.18-21.51.43:533][556]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.11.18-21.51.43:533][556]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.11.18-21.51.43:533][556]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.11.18-21.51.43:534][556]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.11.18-21.51.43:534][556]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.11.18-21.51.43:534][556]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.11.18-21.51.43:534][556]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.11.18-21.51.43:534][556]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.11.18-21.51.43:534][556]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.11.18-21.51.43:540][556]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.11.18-21.51.43:541][556]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.11.18-21.51.43:542][556]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.11.18-21.51.43:560][556]LogDerivedDataCache: Shutdown
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.11.18-21.51.43:560][556]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.18-21.51.43:561][556]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.18-21.51.43:561][556]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.18-21.51.43:561][556]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5DB273F6-47D8-FC39-E26B-9DAD8F8AC792%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=788b8fa54c9dd36824db2183675c4e2c%7C71790725e5ba41cba5e20a42eea6b927%7C19402656-9d1e-4de2-a4d8-002b266bcd50&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.18-21.51.43:586][556]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.18-21.51.43:587][556]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.18-21.51.43:590][556]LogExit: Exiting.
+[2017.11.18-21.51.43:598][556]Log file closed, 11/18/17 15:51:43
